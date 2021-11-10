@@ -24,7 +24,7 @@
     * [Apply as validator](node_setup.md#Apply-as-validator)
   * [Monitoring](node_setup.md#monitoring)
 
-* [**Metamask Settings**](/metamask.md)
+* [**Metamask Settings**](metamask.md#eCredits-metamask)
 
 * **Links**
   * [Website](https://ecredits.com)
