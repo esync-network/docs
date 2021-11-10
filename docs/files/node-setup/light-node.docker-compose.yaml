@@ -1,0 +1,43 @@
+version: "3"
+
+services:
+        
+  ecs-node:
+    image: ecredits/node:1.0.1
+    volumes:
+      - ./genesis.json:/etc/config/genesis.json
+      - ./datadir/:/root/.ethereum
+   
+    restart: always
+    hostname: ecs-node
+    ports:
+      - 8545:8545   # rpc
+      - 30303:30303/tcp # p2p
+      - 30303:30303/udp
+      - 6060:6060   # metrics
+    environment:
+      - POD_NAME
+    entrypoint:
+      - sh
+      - -c
+      - >
+        set -xe;
+
+        geth init /etc/config/genesis.json;
+
+        sleep 3;
+        geth
+        --bootnodes enode://87177ff6d1c1916f41e214a9470d468f2c586a3db42c0d1c0a677d453851f81c81ef7e7a249b0cadcffdac156da77f72926fa2e2120bb9e63eba6938ec3f9958@51.136.105.214:30303,enode://9d5c5bb07f19ffd6651f0ff4694f3953339f47d48c61918dfc0d19f486c6cbd932de2f45518e448fc353de82e23882ea96e7fcf973cac0ddf70334dac9595e26@20.67.33.110:30303
+        --syncmode light
+        --networkid 63000
+        --http
+        --http.api txpool,eth,net,debug,web3
+        --http.addr "0.0.0.0"
+        --http.vhosts "*"
+        --http.corsdomain "*"
+        --txpool.pricelimit 1
+        --rpc.txfeecap 0
+        --verbosity 3
+        --metrics
+        --metrics.addr 0.0.0.0
+        --metrics.expensive

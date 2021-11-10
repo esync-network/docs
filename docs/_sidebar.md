@@ -1,0 +1,31 @@
+* [**Get Started**](README.md#get-started)
+  * [What is eCredits](README.md#what-is-ecredits)
+    * [Vision](README.md#vision)
+  * [Tokens](README.md#Tokens)
+  * [Further Information](/README.md#further-information)
+
+* [**eCredits Nodes**](/node_intro.md#Introduction-to-eCredits-Nodes)
+  * [Node Types](/node_intro.md#eCredits-Nodes-and-their-function)
+    * [Validator Nodes](/node_intro.md#Validator-Nodes)
+    * [Full Nodes](/node_intro.md#Full-Nodes)
+    * [Light Nodes](/node_intro.md#Light-Nodes)
+    * [Archive Nodes](/node_intro.md#Light-Nodes)
+
+* [**Node Setup**](node_setup.md#ecredits-node-setup)
+  * [Prerequisites](node_setup.md#Prerequisites)
+    * [Hardware requirements](node_setup.md#Hardware-requirements)
+    * [Connectivity recommendations](node_setup.md#Connectivity-recommendations)
+    * [Required Software](node_setup.md#Required-Software)
+    * [Firewall Settings](node_setup.md#Firewall-Settings)
+  * [Quick-Setup](node_setup.md#quick-setup)
+  * [Setup](node_setup.md#setup)
+    * [Preparing machine](node_setup.md#Preparing-machine)
+    * [Start the eCredits node](node_setup.md#Start-the-eCredits-node)
+    * [Apply as validator](node_setup.md#Apply-as-validator)
+  * [Monitoring](node_setup.md#monitoring)
+
+* [**Metamask Settings**](/metamask.md)
+
+* **Links**
+  * [Website](https://ecredits.com)
+  * [Whitepaper](https://github.com/eCredits/whitepaper)
