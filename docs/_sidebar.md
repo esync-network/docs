@@ -4,6 +4,9 @@
   * [Tokens](README.md#Tokens)
   * [Further Information](/README.md#further-information)
 
+* [**Metamask Settings**](metamask.md#eCredits-metamask)
+  * [Ledger](metamask.md#use-ledger-hardware-wallet)
+
 * [**eCredits Nodes**](/node_intro.md#Introduction-to-eCredits-Nodes)
   * [Node Types](/node_intro.md#eCredits-Nodes-and-their-function)
     * [Validator Nodes](/node_intro.md#Validator-Nodes)
@@ -23,8 +26,6 @@
     * [Start the eCredits node](node_setup.md#Start-the-eCredits-node)
     * [Apply as validator](node_setup.md#Apply-as-validator)
   * [Monitoring](node_setup.md#monitoring)
-
-* [**Metamask Settings**](metamask.md#eCredits-metamask)
 
 * **Links**
   * [Website](https://ecredits.com)
