@@ -25,7 +25,7 @@ Most people will want to run a node for the MainNet, as this refers to the live 
 
 ### Validator Nodes
 
-Validator nodes are full nodes that also create and distribute new blocks into the system. These nodes can be operated by anyone, but validator nodes must be accepted either by the community or by the SCE. Validators can apply to be accepted as validator. This application can be done via <support@ecredits.com>. There is theoretically no hard limit of nodes. The maximum validator node amount however is defined by the governance body of the SCE, which in turn vote with their validators. 
+Validator nodes are full nodes that also create and distribute new blocks into the system. These nodes can be operated by anyone, but validator nodes must be accepted either by the community or by the SCE. Validators can apply to be accepted as validator if they are members of the SCE. This application can be done via <support@ecredits.com>. There is theoretically no hard limit of nodes. The maximum validator node amount however is defined by the governance body of the SCE, which in turn vote with their validators. 
 
 Validator properties:
  - Creating and distributing new blocks
