@@ -25,6 +25,7 @@
     * [Preparing machine](node_setup.md#Preparing-machine)
     * [Start the eCredits node](node_setup.md#Start-the-eCredits-node)
     * [Apply as validator](node_setup.md#Apply-as-validator)
+  * [Maintenance](node_maintenance.md#Node-Maintenance)
   * [Monitoring](node_setup.md#monitoring)
 
 * **Links**
