@@ -23,7 +23,7 @@ services:
 
         geth
         --ecs
-        --txpool.pricelimit 1
+        --txpool.pricelimit 10000000000
         --miner.gasprice 1
         --miner.gastarget 10000000
         --miner.gaslimit 10000000
