@@ -15,6 +15,10 @@ sudo reboot
 
 Modify the docker-compose (/var/lib/eCredits/validator.docker-compose.yaml) file for the validator so that it matches: <https://docs.ecredits.com/files/node-setup/validator.docker-compose.yaml>. Do not forget to set the etherbase address to yours (if you use it).
 
+```bash
+sudo nano /var/lib/eCredits/validator.docker-compose.yaml
+```
+
 ## Step 3: restart the container
 
 restart the container and check the log files if everything works as expected:  
