@@ -80,7 +80,11 @@ This is the address of your validator and the one that you need to send the comm
 
 Next step is to [Apply as validator](node_setup.md#Apply-as-validator) and wait for the acceptance.  
 
-Once your validator is accepted, it will start mining. You can check the status by using **10** (Show logs).
+Once your validator is accepted, it will start mining. You can check the status by using **10** (Show logs). If a block is potentially mined, the log message will be:
+
+```text
+INFO [01-02|12:34:56.789] 🔨 mined potential block                  number=3,360,123 hash=3fa29a..b13e92
+```
 
 ## Further Information
 
