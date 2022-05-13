@@ -27,6 +27,8 @@
     * [Apply as validator](node_setup.md#Apply-as-validator)
   * [Maintenance](node_maintenance.md#Node-Maintenance)
   * [Monitoring](node_setup.md#monitoring)
+  
+* [**Hardware Node Setup**](hardwarenode_setup.md#eCredits-hardware-node-setup)
 
 * **Links**
   * [Website](https://ecredits.com)
