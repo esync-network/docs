@@ -37,7 +37,7 @@ ecredits
 
 This command updates itself, downloads the required files and starts the validator:
 
-```text
+```shell
 ********************************************************************************
 *                     eCredits Node Control Panel                              *
 ********************************************************************************
@@ -59,9 +59,9 @@ This command updates itself, downloads the required files and starts the validat
 Existing eCredits setup identified. Please choose an option:
 ```
 
-Please select option **5**. The system will guide you through the process, will ask you to create a new public address (if you dont have one), to set a password and will ask you to start mining. After the creation of the key, it will ask you for the public address which looks like:
+Please select option **5**. The system will guide you through the process, will ask you to create a new public address (if you dont have one), to set a password, will ask you if you want to use the etherbase address and will finally ask you to start mining. After the creation of the key, it will ask you for the public address which looks like:
 
-```text
+```shell
 Your new key was generated
 
 Public address of the key:   0x0215414CEF8F44C47ab15A29656214e6AeA28B00
@@ -78,11 +78,16 @@ To start the mining, please provide the public Account address (e.g. 0xTODO0000E
 The public account address is the one shown in line 3 of the output, so in the sample above, it would be `0x0215414CEF8F44C47ab15A29656214e6AeA28B00`.  
 This is the address of your validator and the one that you need to send the community or the SCE if you apply to become a validator. 
 
+!> Please create a backup of this key and make sure you remember your password. In case of an issue (e.g. hard disc crashes), you need a backup to be able to start a new 
+validator and to access your funds (if you do not use the etherbase address). 
+
+Create a backup of the file by navigating to: `/root/.ethereum/keystore/` and then copy the file to e.g. a usb stick or another secure place.  
+
 Next step is to [Apply as validator](node_setup.md#Apply-as-validator) and wait for the acceptance.  
 
 Once your validator is accepted, it will start mining. You can check the status by using **10** (Show logs). If a block is potentially mined, the log message will be:
 
-```text
+```shell
 INFO [01-02|12:34:56.789] 🔨 mined potential block                  number=3,360,123 hash=3fa29a..b13e92
 ```
 
