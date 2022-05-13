@@ -14,7 +14,7 @@ The standard username and password for the node is:
 - Username: `ecredits`
 - Password: `The peoples currency!`
 
-!> The standard keyboard layout for the node is english. If you have e.g. a german keyboard, it means that you have to enter z instead of y.
+?> The standard keyboard layout for the node is english. If you have e.g. a german keyboard, it means that you have to enter z instead of y.
 You can find a picture of the keyboard layout at: <https://en.wikipedia.org/wiki/Keyboard_layout#/media/File:Qwerty.svg>
 
 ## OS Configuration
@@ -59,7 +59,12 @@ This command updates itself, downloads the required files and starts the validat
 Existing eCredits setup identified. Please choose an option:
 ```
 
-Please select option **5**. The system will guide you through the process, will ask you to create a new public address (if you dont have one), to set a password, will ask you if you want to use the etherbase address and will finally ask you to start mining. After the creation of the key, it will ask you for the public address which looks like:
+Please select option **5**. The system will guide you through the process, will ask you to create a new public address (if you dont have one), to set a password, will ask you if you want to use the etherbase address and will finally ask you to start mining. 
+
+?> If you want to use a separate account for your rewards, please set the etherbase address to the address of your wallet. By doing that, all rewards (transaction costs) that 
+your validator receives will be added to this configured address.
+
+Once the system created the key, it will ask you for the public Account address:
 
 ```shell
 Your new key was generated
