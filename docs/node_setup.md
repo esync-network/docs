@@ -260,14 +260,32 @@ Check the status of the validator via:
 
 Each validator must be accepted by a majority of the existing validators. This 
 majority must be achieved either by:
- - Validator Nodes: more 50%
- - Supervalidator Nodes: more than 75%
 
-If you are a member of the SCE, you can apply via mail at <support@ecredits.com>. Please provide
-your user id (email address) and the address of the validator (0x....).  
+- Validator Nodes: more 50%
+- Supervalidator Nodes: more than 75%
+
+If you are a member of the SCE, you can apply via mail at <support@ecredits.com>. Please fill out the following information
+and send it to the support:
+
+```text
+User ID (your email address in eCredits system): 
+Validator address: 
+Elements username: 
+Validator up and running: yes/no
+Hardware requirements fulfilled: yes/no
+```
+
+- User ID: is the email address you use in the eCredits system to login to the webportal or the eWallet.
+- Validator address: is the address of your validator that you generated and that you need to unlock your validator.
+- Element username: Element is a secure messenger. There is an eCredits space (<https://matrix.to/#/#ecredits:matrix.org>) with a private channel for validators which is used as a fast communication channel so that the users can help each other and that it is ensured that updates are promoted and potential downtimes of validators are reduced as much as possible.
+- Validator up and running: It is important that the validator is already setup and running. Thats why we ask you explicitly if that is done.
+- Hardware requirements fulfilled: Please let us know if you fulfill the requirements.
+
 As alternative, you can communicate to other validators and convince them to accept your node as 
 a validator in the network.
 
+!> It is your responsibility to keep your node up to date. We will publish updates in the elements channel and you will also see it in docker hub. Please note that 
+the SCE or the community could decide to vote for the removal of a node if there are too many downtimes or the node is not regularaly updated and maintained.
 
 ### Run a Full-Node
 
