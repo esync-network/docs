@@ -25,7 +25,7 @@ After the first login, plesae do the basic configuration of operating system:
 2. Connect WLAN or LAN and make sure that the internet connection works
 3. Change the default password by opening a terminal and type `passwd`
 4. Update the system by opening a terminal and execute `sudo apt update && sudo apt upgrade -y`. The system will ask you if you want to restart docker - select yes.
-5. execute `sed -i -e 's/\r$//' /usr/local/bin/ecredits` which fixes a potential issue in the script that some users faced.
+5. execute `sudo sed -i -e 's/\r$//' /usr/local/bin/ecredits` which fixes a potential issue in the script that some users faced.
 
 ## Setup eCredits Node
 
