@@ -71,10 +71,26 @@ The configuration of the webshop addins require the following information that y
 <img src="files/webshop-addins/magento_10.png" class="imgcenter">
 
 - Login to your business profile at <https://portal.ecredits.com>
+
+<img src="files/webshop-addins/portal_1.png" class="imgcenter">
+
 - Navigate to "Web Widget" and generate a new API key. (The key is displayed and you can directly copy it. Copy it to any editor of your choice. The key can be deleted , and replaced with another key in the future in case you lost the key, simply generate a new one, using the Button again. Once a Key is generated, do not forget to add your webhook to your online-store.)
+
+<img src="files/webshop-addins/portal_2.png" class="imgcenter">
+
 - Click Add Webhook and configure the URL of your webhook. The URL is shown in Magento. You may amend the webhook by deleting it, and add a new one later in case you made a mistake here.
+
+<img src="files/webshop-addins/portal_3.png" class="imgcenter">  
+<img src="files/webshop-addins/portal_4.png" class="imgcenter">
+
 - Navigate to Business Settings - Stores, click the details of your online store and navigate to Webshop Config
+
+<img src="files/webshop-addins/portal_5.png" class="imgcenter">
+
 - Copy the IDs 1:1 into the config of the plugin in your store's configuration section
+ 
+<img src="files/webshop-addins/magento_10.png" class="imgcenter">
+
 - Click Save
 
 ## Prestashop Addin
@@ -105,7 +121,6 @@ In case you want to inform yourself about the official documentation of prestash
 
 <img src="files/webshop-addins/prestashop_6.png" class="imgcenter">
 
-
 ### Install and enable eCredits module
 
 Next is the installation of the module and basic setup to allow it to work on the store.
@@ -126,14 +141,27 @@ Next is the installation of the module and basic setup to allow it to work on th
 5. Enter the API Information:
 
 - Login to your business profile at <https://portal.ecredits.com>
-- Navigate to "Web Widget" and generate a new API key. (The key is displayed and you can directly copy it. Copy it to any editor of your choice. The key can be deleted , and replaced with another key in the future in case you lost the key, simply generate a new one, using the Button again. Once a Key is generated, do not forget to add your webhook to your online-store.)
-- Click Add Webhook and configure the URL of your webhook. The URL for WooCommerce is: `https://yourshop.com/index.php?fc=module&module=ecredits&controller=webhook`. Please replace "yourshop.com" with your url.
-- Navigate to Business Settings - Stores, click the details of your online store and navigate to Webshop Config
-- Copy the IDs 1:1 into the config of the plugin in your store's configuration section
-- Click Save
 
+<img src="files/webshop-addins/portal_1.png" class="imgcenter">
+
+- Navigate to "Web Widget" and generate a new API key. (The key is displayed and you can directly copy it. Copy it to any editor of your choice. The key can be deleted , and replaced with another key in the future in case you lost the key, simply generate a new one, using the Button again. Once a Key is generated, do not forget to add your webhook to your online-store.)
+
+<img src="files/webshop-addins/portal_2.png" class="imgcenter">
+
+- Click Add Webhook and configure the URL of your webhook. The URL for Prestashop is: `https://yourshop.com/index.php?fc=module&module=ecredits&controller=webhook`. Please replace "yourshop.com" with your url.
+
+<img src="files/webshop-addins/portal_3.png" class="imgcenter">  
+<img src="files/webshop-addins/portal_4.png" class="imgcenter">
+
+- Navigate to Business Settings - Stores, click the details of your online store and navigate to Webshop Config
+
+<img src="files/webshop-addins/portal_5.png" class="imgcenter">
+
+- Copy the IDs 1:1 into the config of the plugin in your store's configuration section
 
 <img src="files/webshop-addins/prestashop_10.png" class="imgcenter">
+
+- Click Save
 
 6. Enable EUR as currency and enable the eCredits option checkbox, click Save
 
@@ -161,10 +189,24 @@ Next is the installation of the module and basic setup to allow it to work on th
 6. Enter the API Information:
 
 - Login to your business profile at <https://portal.ecredits.com>
+
+<img src="files/webshop-addins/portal_1.png" class="imgcenter">
+
 - Navigate to "Web Widget" and generate a new API key. (The key is displayed and you can directly copy it. Copy it to any editor of your choice. The key can be deleted , and replaced with another key in the future in case you lost the key, simply generate a new one, using the Button again. Once a Key is generated, do not forget to add your webhook to your online-store.)
-- Click Add Webhook and configure the URL of your webhook. The URL for WooCommerce is: `https://yourshop.com/wc-api/e-credits_response`. Please replace "yourshop.com" with your url.
+
+<img src="files/webshop-addins/portal_2.png" class="imgcenter">
+
+- Click Add Webhook and configure the URL of your webhook. The URL for WooCommerce is: `https://yourshop.com/index.php?fc=module&module=ecredits&controller=webhook`. Please replace "yourshop.com" with your url.
+
+<img src="files/webshop-addins/portal_3.png" class="imgcenter">  
+<img src="files/webshop-addins/portal_4.png" class="imgcenter">
+
 - Navigate to Business Settings - Stores, click the details of your online store and navigate to Webshop Config
+
+<img src="files/webshop-addins/portal_5.png" class="imgcenter">
+
 - Copy the IDs 1:1 into the config of the plugin in your store's configuration section
-- Click Save
 
 <img src="files/webshop-addins/woocommerce_5.png" class="imgcenter">
+
+- Click Save
