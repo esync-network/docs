@@ -15,7 +15,7 @@ Please make sure to have the following ready before you start the installation o
 - A configured online store (via the web portal)
 - Installed and configured eWallet for the merchant account
 
-## Install the Magento Addin
+## Install the Magento Plugin
 
 1. Login to the admin panel of Magento
 2. Navigate to Find Partners & Extensions
@@ -81,7 +81,7 @@ Please make sure to have the following ready before you start the installation o
 
 - Click Save
 
-## Install the Prestashop Addin
+## Install the Prestashop Plugin
 
 In case you want to inform yourself about the official documentation of prestashop you may find the information here: <https://www.youtube.com/watch?v=nG3VSMQ593s&t=125s>.  
 
@@ -155,7 +155,7 @@ Next is the installation of the module and basic setup to allow it to work on th
 
 <img src="files/webshop-addins/prestashop_11.png" class="imgcenter">
 
-## Install the WooCommerce Addin
+## Install the WooCommerce Plugin
 
 1. Login to the admin panel of your Wordpress installation.
 2. Navigate to plugins.
