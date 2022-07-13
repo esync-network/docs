@@ -31,9 +31,9 @@
 * [**Hardware Node Setup**](hardwarenode_setup.md#eCredits-hardware-node-setup)
 
 * [**Webshop Plugin Setup**](webshop_addins.md#eCredits-Webshop-Plugins)
-  * [**Magento**](webshop_addins.md#Install-the-Magento-Plugin)
-  * [**Prestashop**](webshop_addins.md#Install-the-Prestashop-Plugin)
-  * [**Woocommerce**](webshop_addins.md#Install-the-WooCommerce-Plugin)
+  * [Magento](webshop_addins.md#Install-the-Magento-Plugin)
+  * [Prestashop](webshop_addins.md#Install-the-Prestashop-Plugin)
+  * [Woocommerce](webshop_addins.md#Install-the-WooCommerce-Plugin)
 
 * **Links**
   * [Website](https://ecredits.com)
