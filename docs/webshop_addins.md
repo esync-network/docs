@@ -5,6 +5,7 @@ are available for:
 
 - WooCommerce: <https://wordpress.org/plugins/ecredits/>
 - Magento: <https://marketplace.magento.com/thepeoplessce-ecredits.html>
+- Prestashop
 
 ## Prerequisites
 
@@ -14,20 +15,7 @@ Please make sure to have the following ready before you start the installation o
 - A configured online store (via the web portal)
 - Installed and configured eWallet for the merchant account
 
-## Configuration Parameters
-
-The configuration of the webshop addins require the following information that you can find in <https://portal.ecredits.com>:
-
-<img src="files/webshop-addins/portal_1.png" class="imgcenter">
-
-- Store ID: Is the ID of your store, if you have multiple ones.
-- Profile ID: Is the ID of your merchant profile.
-- Segment ID: If you offer a cashback merchant, this segment ID allows you to set the cashback segment.
-- Secret: The generated API secret.
-- Client ID: The client ID of the API.
-- Webhook secret: The secret of the webhook.
-
-## Magento Addin
+## Install the Magento Addin
 
 1. Login to the admin panel of Magento
 2. Navigate to Find Partners & Extensions
@@ -93,7 +81,7 @@ The configuration of the webshop addins require the following information that y
 
 - Click Save
 
-## Prestashop Addin
+## Install the Prestashop Addin
 
 In case you want to inform yourself about the official documentation of prestashop you may find the information here: <https://www.youtube.com/watch?v=nG3VSMQ593s&t=125s>.  
 
@@ -167,7 +155,7 @@ Next is the installation of the module and basic setup to allow it to work on th
 
 <img src="files/webshop-addins/prestashop_11.png" class="imgcenter">
 
-## WooCommerce Addin
+## Install the WooCommerce Addin
 
 1. Login to the admin panel of your Wordpress installation.
 2. Navigate to plugins.
