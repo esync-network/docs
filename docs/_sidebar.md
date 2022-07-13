@@ -30,6 +30,8 @@
   
 * [**Hardware Node Setup**](hardwarenode_setup.md#eCredits-hardware-node-setup)
 
+* [**Webshop Addin Setup**](webshop_addins.md#eCredits-Webshop-Plugins)
+
 * **Links**
   * [Website](https://ecredits.com)
   * [Whitepaper](https://github.com/eCredits/whitepaper)
