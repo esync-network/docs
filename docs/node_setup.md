@@ -264,7 +264,7 @@ majority must be achieved either by:
 - Validator Nodes: more 50%
 - Supervalidator Nodes: more than 75%
 
-If you are a member of the SCE, you can apply via mail at <support@ecredits.com>. Please fill out the following information
+If you are a member of the SCE or you bought a node at the eCredits webshop, you can apply via mail at <support@ecredits.com>. Please fill out the following information
 and send it to the support:
 
 ```text
