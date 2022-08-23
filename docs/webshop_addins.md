@@ -5,7 +5,7 @@ are available for:
 
 - WooCommerce: <https://wordpress.org/plugins/ecredits/>
 - Magento: <https://marketplace.magento.com/thepeoplessce-ecredits.html>
-- Prestashop
+- Prestashop <https://addons.prestashop.com/en/payments-gateways-prestashop-modules/88595-ecredits.html>
 
 ## Prerequisites
 
