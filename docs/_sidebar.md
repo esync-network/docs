@@ -35,6 +35,11 @@
   * [Prestashop](webshop_addins.md#Install-the-Prestashop-Plugin)
   * [Woocommerce](webshop_addins.md#Install-the-WooCommerce-Plugin)
 
-* **Links**
+* [**Widget API**](widgetapi_0_overview.md#eCredits-Widget-API)
+  * [Overview](widgetapi_0_overview.md#eCredits-Widget-API)
+  * [Authentication](widgetapi_1_authentication.md#eCredits-Widget-API-Authentication)
+  * [Requests](widgetapi_2_requests.md#eCredits-Widget-API-Creation-of-Transaction-Requests)
+
+**Links**
   * [Website](https://ecredits.com)
   * [Whitepaper](https://github.com/eCredits/whitepaper)
