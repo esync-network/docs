@@ -10,8 +10,8 @@ if you use the ecredits node maintenance script, you can update your node via:
 ecredits
 ```
 
-It will show you a few options, please select `2` to update your node. The script will download the latest version of the container, will restart
-the node and will ask you for your password. Please enter your password to unlock the validator. Once it's up and running, press `10` to check the logs.  
+It will show you a few options, please select `4` to update your node. The script will download the latest version of the container, will restart
+the node and will ask you for your password. Please enter your password to unlock the validator. Once it's up and running, press `6` to check the logs.  
 
 If the logs do not show a new potentially mined block, please try to unlock again and make sure that the address of the account matches with the one of
 your validator.
@@ -25,7 +25,7 @@ sudo apt update && sudo apt upgrade -y
 sudo reboot
 ```
 
-This will update your system and reboot the device. After the reboot, please login, type `ecredits` and select `5` to start mining. The system will ask you for
+This will update your system and reboot the device. After the reboot, please login, type `ecredits` and select `2` to start mining. The system will ask you for
 the password to unlock your account.
 
 ## Manual Update
