@@ -6,7 +6,7 @@ sidebar_position: 2
 The eCredits ecosystem consists of many different applications, services, user groups, and governance structures. This page will 
 give you a quick overview of the different tools and services available within the eCredits Ecosystem.
 
-<img src="/img/ecredits_ecosystem/ecredits_ecosystem.jpg" />
+<img src="/img/ecredits_ecosystem/eCredits_ecosystem.jpg" />
 
 ## Application and Services Overview
 
