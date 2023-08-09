@@ -25,7 +25,6 @@ services:
         --ecs
         --txpool.pricelimit 10000000000
         --miner.gasprice 1
-        --miner.gastarget 10000000
         --miner.gaslimit 10000000
         --rpc.txfeecap 0
         --verbosity 3
