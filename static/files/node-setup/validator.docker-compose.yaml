@@ -3,7 +3,7 @@ version: "3"
 services:
 
   ecs-validator:
-    image: ecredits/node:1.10.26-ecs-1
+    image: ecredits/node:1.11.4-ecs-1
     volumes:
       - ./datadir:/root/.ethereum
     restart: always
@@ -32,4 +32,5 @@ services:
         --metrics
         --metrics.addr 0.0.0.0
         --metrics.expensive
+        --rpc.enabledeprecatedpersonal
         #--miner.etherbase 0xTODO0000ENTER000YOUR000ADDRESS000HERE000
