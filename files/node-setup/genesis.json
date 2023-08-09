@@ -1,0 +1,52 @@
+{
+    "config": {
+      "chainId": 63000,
+      "homesteadBlock": 0,
+      "eip150Block": 0,
+      "eip150Hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "eip155Block": 0,
+      "eip158Block": 0,
+      "byzantiumBlock": 0,
+      "constantinopleBlock": 0,
+      "petersburgBlock": 0,
+      "istanbulBlock": 0,
+      "clique": {
+        "period": 5,
+        "epoch": 30000,
+        "pallas": {
+          "activationBlock": 0,
+          "validators": {
+            "2820000": [
+              { "address": "0x60812650e11eB28d5846b1C62F311c0b9F53bc79", "super": false }
+             ,{ "address": "0x269a32c2975DC7FE5293c15e0E5BBee066bA4074", "super": false }
+             ,{ "address": "0xa38a591a5c1B076a6D05F8C7944D5C86c922e9a6", "super": false }
+             ,{ "address": "0x0Cd0dB0eEDaA7928f5C5f6EEE2234C88d99B4552", "super": false }
+             ,{ "address": "0x050c4bea6019E59dB716d3455d4d271B39E95197", "super": false }
+           ],
+           "2940000": [
+              { "address": "0x60812650e11eB28d5846b1C62F311c0b9F53bc79", "super": true }
+             ,{ "address": "0x269a32c2975DC7FE5293c15e0E5BBee066bA4074", "super": true }
+             ,{ "address": "0xa38a591a5c1B076a6D05F8C7944D5C86c922e9a6", "super": true }
+             ,{ "address": "0x0Cd0dB0eEDaA7928f5C5f6EEE2234C88d99B4552", "super": true }
+             ,{ "address": "0x050c4bea6019E59dB716d3455d4d271B39E95197", "super": true }
+           ]
+          }
+        }
+      }
+    },
+    "nonce": "0x0",
+    "timestamp": "0x60916FF8",
+    "extraData": "0x000000000000000000000000000000000000000000000000000000000000000060812650e11eB28d5846b1C62F311c0b9F53bc79269a32c2975DC7FE5293c15e0E5BBee066bA4074a38a591a5c1B076a6D05F8C7944D5C86c922e9a60Cd0dB0eEDaA7928f5C5f6EEE2234C88d99B4552050c4bea6019E59dB716d3455d4d271B39E951970000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "gasLimit": "0x989680",
+    "difficulty": "0x1",
+    "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "coinbase": "0x0000000000000000000000000000000000000000",
+    "alloc": {
+      "7AEB014a130d12E064fCC93C65151C20683E893f": {
+        "balance": "63000000000000000000000000000"
+      }
+    },
+    "number": "0x0",
+    "gasUsed": "0x0",
+    "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000"
+  }

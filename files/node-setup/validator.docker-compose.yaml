@@ -1,0 +1,35 @@
+version: "3"
+
+services:
+
+  ecs-validator:
+    image: ecredits/node:1.10.26-ecs-1
+    volumes:
+      - ./datadir:/root/.ethereum
+    restart: always
+    hostname: ecs-validator
+    ports:
+      - 30303:30303 # p2p
+      - 30303:30303/udp # discovery
+      - 6060:6060   # metrics
+    environment:
+      - POD_NAME
+    #  - ETHERBASE
+    entrypoint:
+      - sh
+      - -c
+      - >
+        set -xe;
+
+        geth
+        --ecs
+        --txpool.pricelimit 10000000000
+        --miner.gasprice 1
+        --miner.gastarget 10000000
+        --miner.gaslimit 10000000
+        --rpc.txfeecap 0
+        --verbosity 3
+        --metrics
+        --metrics.addr 0.0.0.0
+        --metrics.expensive
+        #--miner.etherbase 0xTODO0000ENTER000YOUR000ADDRESS000HERE000
