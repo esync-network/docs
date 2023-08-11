@@ -36,4 +36,3 @@ services:
         --metrics
         --metrics.addr 0.0.0.0
         --metrics.expensive
-        --ignore-legacy-receipts
