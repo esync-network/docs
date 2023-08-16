@@ -75,6 +75,8 @@ docker exec -it ecredits_ecs-validator_1 geth --exec 'clique.propose("0x....", f
 
 ## Backup
 
+Backing up your keystore file is essential for safeguarding your valuable cryptographic keys. In the event of data loss, hardware failure, or security breaches, having a secure backup ensures that you can regain access to your encrypted information and digital assets. By maintaining a reliable backup, you protect yourself from potential catastrophic consequences and ensure the continuity and security of your digital presence.
+
 ### How can I backup my keystore file?
 
 1. **Making local copy of keystore**
@@ -90,9 +92,21 @@ docker exec -it ecredits_ecs-validator_1 geth --exec 'clique.propose("0x....", f
     cd keystore
 
     ls
+
+    exit
     ```
 
     Record the filename from the output.
+
+    Example: `UTC--2021-10-11T15-23-03.0123456789--0123456789abcdef0123456789abcdef12345678`
+
+    A keystore file is typically associated with blockchain-based systems and is used to store private keys securely.  
+    Let's break down the example filename:  
+    - **UTC--:** This is a prefix that indicates the file is following the Universal Time Coordinated (UTC) format. It helps in identifying the timestamp 
+    format of the file.  
+    - **2021-10-11T15-23-03.0123456789:** This part represents the date and time when the keystore file was created or generated. In the example, it shows October 11, 2021, at 15:23:03, with milliseconds represented by 0123456789.  
+    - **--:** This is a separator in the filename, which helps separate the timestamp from the next part.  
+    - **0123456789abcdef0123456789abcdef12345678:** This part is the unique identifier for the keystore file. It's the wallet address of the wallet the keystore is holding.
 
     To ensure a local backup of the keystore file, execute the following command to copy the keystore file:
 
@@ -139,9 +153,9 @@ docker exec -it ecredits_ecs-validator_1 geth --exec 'clique.propose("0x....", f
     - Replace "username" with your validator username.
     - Replace "validator_ip" with the IP address of your validator.
     - Replace "filename" with the actual keystore file name that you wish to back up.
-    - Modify "/path/to/destination/folder" to the desired folder location on the backup machine where you want to save the file.
-
-    :::info
+    - Modify "/path/to/destination/folder" to the desired folder location on the backup machine where you want to save the file.  
+	
+	:::info
     Make sure the file is backed up on your backup machine!
     :::
 
@@ -149,25 +163,11 @@ docker exec -it ecredits_ecs-validator_1 geth --exec 'clique.propose("0x....", f
 
 1. **Restoring the keystore file to validator**
 
-   Restoring your keystore file is a straightforward process if you have a backup. Simply follow these steps to successfully restore it:
+   Restoring your keystore file is a straightforward process. Ensure you have a backup of your keystore file and simply follow these steps to successfully restore it:
 
-    - Ensure you have a backup of your keystore file.
-    - Add the backup file to the folder '/var/lib/eCredits/datadir/keystore' on your validator.
-
-    :::info
-    Please note that the specific approach to restoring may vary depending on your chosen backup strategy. Here's one example of how you can
-    perform the restoration. Adapt the steps accordingly based on your situation:
-    :::
-
-    - Access your validator.
-    - Navigate to the location of your keystore backups.
-    - Copy the desired keystore backup file to the '/var/lib/eCredits/datadir/keystore' folder on your validator.
-
-   By following these steps, your keystore file will be successfully restored, provided you have a valid backup in place.
-
-   :::info
-   Before proceeding with any SSH-related tasks, ensure that OpenSSH-Server is installed on your validator. If it's not installed, you can use the
-   following commands to install it:
+	:::info
+	Before proceeding with any SSH-related tasks, ensure that OpenSSH-Server is installed on your validator. If it's not installed, you can use the
+	following commands to install it:
 
     ```bash
     sudo apt update
@@ -175,9 +175,9 @@ docker exec -it ecredits_ecs-validator_1 geth --exec 'clique.propose("0x....", f
     sudo apt install openssh-server
     ```
 
-    :::
+	:::
 
-    On your backup machine where your keystore file is located, open Command Prompt or PowerShell and use the following command to copy the key to
+	On your backup machine where your keystore file is located, open Command Prompt, Terminal or PowerShell and use the following command to copy the key to
     your validator:
 
     ```bash
@@ -188,9 +188,9 @@ docker exec -it ecredits_ecs-validator_1 geth --exec 'clique.propose("0x....", f
 
 2. **Relocating keystore file to right place**
 
-    Your keystore file is copied to `/home/test/`.
+    Your keystore file is copied to `/home/<username>/`.
 
-    Copy back keystore file to the `/var/lib/eCredits/datadir/keystore` location.
+    Copy back keystore file to the `/var/lib/eCredits/datadir/keystore` location by following these steps:
 
     ```bash
     cd /var/lib/eCredits/datadir
@@ -199,7 +199,6 @@ docker exec -it ecredits_ecs-validator_1 geth --exec 'clique.propose("0x....", f
 
     cd keystore
 
-    sudo cp /home/test/<filename> /var/lib/eCredits/datadir/keystore
+    sudo cp /home/<username>/<filename> /var/lib/eCredits/datadir/keystore
     ```
-
-   After copying the keystore file back to your Validator, you can use the `ls` command to check if the file has been successfully copied.
+   After copying the keystore file back to your Validator on right location, you can use the `ls` command to check if the file has been successfully copied.
