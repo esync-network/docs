@@ -32,4 +32,4 @@ eCredits is an Ethereum Virtual Machine (EVM) Layer 1 blockchain. It was launche
 </tbody>
 </table>
 
-[Metamask](/docs/tools/metamask) describes how to use eCredits with metamask.
+[Metamask](/tools/metamask) describes how to use eCredits with metamask.

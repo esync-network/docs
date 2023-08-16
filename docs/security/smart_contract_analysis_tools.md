@@ -3,7 +3,7 @@ sidebar_position: 4
 ---
 # Smart Contract Analysis Tools
 
-The following contains a list of tools that can be used to analyse the security of smart contracts. Even these tools are very useful, it is still recommended to do a manual security audit by specialized firms. 
+The following contains a list of tools that can be used to analyze the security of smart contracts. Although these tools are very useful, it is still recommended to do a manual security audit by specialized firms. 
 
 ## Static Analysis
 

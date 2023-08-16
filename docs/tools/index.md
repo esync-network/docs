@@ -8,9 +8,9 @@ The following section contains a list of tools available for the eCredits ecosys
 ## Wallets & Hardware Wallets
 
 - [eCredits Wallet](https://link.ecredits.com/app/install): a mobile app available for Android and iOS. This is the preferred wallet for using eCredits.
-- [Metamask](/docs/tools/metamask.md): metamask (<https://metamask.io>) is a popular EVM wallet and works also for eCredits. 
-- [Ledger](/docs/tools/ledger_hardware_wallet): a hardware wallet produced by <https://www.ledger.com/>.
-- [Trezor](/docs/tools/trezor_hardware_wallet): a hardware wallet available at <https://trezor.io/>.
+- [Metamask](/tools/metamask.md): metamask (<https://metamask.io>) is a popular EVM wallet and works also for eCredits. 
+- [Ledger](/tools/ledger_hardware_wallet): a hardware wallet produced by <https://www.ledger.com/>.
+- [Trezor](/tools/trezor_hardware_wallet): a hardware wallet available at <https://trezor.io/>.
 
 ## Block Explorer
 
