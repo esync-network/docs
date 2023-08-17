@@ -35,4 +35,4 @@ Gateways and exchanges allow users to buy eCredits using fiat or other crypto. Y
 - [EXMO](https://exmo.com/)
 - [Simplex](https://buy.simplex.com/?crypto=ECS)
 
-A list of all exchanges and their functionality can be found under [Exchanges](/docs/ecredits_ecosystem/exchanges.md)
+A list of all exchanges and their functionality can be found under [Exchanges](/ecredits_ecosystem/exchanges.md)

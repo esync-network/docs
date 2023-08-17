@@ -27,7 +27,7 @@ Smart contracts on eCredits, written in high-level languages like Solidity, can 
 
 - **Standardized, Open-Source Smart Contracts**: Developers are encouraged to use well-vetted, open-source smart contract libraries, such as OpenZeppelin. These libraries have been extensively audited and tested, reducing the likelihood of introducing new vulnerabilities when creating contracts.
 
-There are several tools available to do a security analysis of your smart contracts. You can find these in the [Smart Contract Analysis Tools](/docs/security/smart_contract_analysis_tools.md) section.
+There are several tools available to do a security analysis of your smart contracts. You can find these in the [Smart Contract Analysis Tools](/security/smart_contract_analysis_tools.md) section.
 
 ## Gas Fees
 

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
 ---
 # Branded Node Setup
 
@@ -10,7 +10,7 @@ This information only applies to nodes that have been bought in our [eCredits We
 :::
 
 Congratulations on your new eCredits Validator Node! This node is already preconfigured with software, but you still must maintain the node and run through the setup process. 
-This documentation should guide you through the process, but please also make sure to check the [Node Setup](personal_node_setup.md#node-setup) and [Maintenance](node_maintenance.md) sections.
+This documentation should guide you through the process, but please also make sure to check the [Node Setup](node_setup.md#node-setup) and [Maintenance](node_maintenance.md) sections.
 
 :::warning
 
@@ -112,7 +112,7 @@ Validator Node and to access your funds (if you do not use the etherbase address
 
 Create a backup of the file by navigating to: `/root/.ethereum/keystore/` and then copy the file to e.g. a USB stick or another secure place.  
 
-Next step is to [Apply as validator](personal_node_setup.md#apply-as-validator) and wait for acceptance.  
+Next step is to [Apply as validator](node_setup.md#apply-as-validator) and wait for acceptance.  
 
 Once your Validator Node is accepted, it will begin mining. You can check the status by using **3** (Show logs). If a block is potentially mined, the log message will be:
 
@@ -125,5 +125,5 @@ You can leave the log view by the key combination ```CTR+C```.
 ## Further Information
 
 In case of any issues, please check:  
-- [Node Setup](personal_node_setup.md#ecredits-node-setup)  
+- [Node Setup](node_setup.md#ecredits-node-setup)  
 - [Maintenance](node_maintenance.md#Node-Maintenance)
