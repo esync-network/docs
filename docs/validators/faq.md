@@ -94,7 +94,7 @@ A validator can have two addresses:
 - **Validator address**. Mandatory. This is the address your validator uses to mine blocks. It is generated as part of the setup process, and you should not replace it with another address. Keep the key for the address on the node for security reasons and make sure that you have a backup of the keyfile.
 - **Etherbase address** Optional. This address will receive all transaction fees (rewards) of the validator. This address can be replaced, e.g. with an eWallet address. One way is to create a separate address in the eWallet where you will see how much ECS the validator has already earned.
 
-The etherbase address can be set as described here: [node setup](/docs/validators/personal_node_setup#start-the-ecredits-node), or by using the eCredits script (type "ecredits" and then select "3")
+The etherbase address can be set as described here: [node setup](/validators/node_setup#start-the-ecredits-node), or by using the eCredits script (type "ecredits" and then select "3")
 
 If you want to replace the public address of the node, you must either generate a new account (which creates a keyfile) or create the required keyfile on your own, put in the right directory (same as where your current keyfile is), restart the container and instead of unlocking the old account, you unlock the new one. However, it also means that you must re-apply as validator, because the new address will not be part of the approved validators and you will get an "unauthorized signer" error.
 

@@ -15,7 +15,7 @@ To use your Ledger device with Metamask and eCredits, please follow these steps:
 2. Update the Firmware of your Ledger device 
 3. Update the Ethereum app
 4. Install Metamask
-5. Connect Metamask with eCredits network (see [Metamask](/docs/tools/index))
+5. Connect Metamask with eCredits network (see [Metamask](/tools/index))
 
 ## Connect Hardware Wallet
 

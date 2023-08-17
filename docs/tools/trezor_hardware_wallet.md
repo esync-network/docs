@@ -14,7 +14,7 @@ To use your trezor hardware wallet with Metamask and eCredits, please follow the
 1. Download/Update Trezor Suite
 2. Update the Firmware of your Trezor device 
 3. Install Metamask
-4. Connect Metamask with eCredits network (see [Metamask](/docs/tools/index))
+4. Connect Metamask with eCredits network (see [Metamask](/tools/index))
 
 ## Connect Hardware Wallet
 

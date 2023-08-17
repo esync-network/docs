@@ -7,13 +7,13 @@ We take security very seriously at eCredits and The People's SCE, and we underst
 
 ## Responsible Disclosure
 
-Our tech team has up to 3 months to implement a fix based on the severity of the report. Please allow for this process to fully complete before you publicly disclose the vulnerability.
+Our tech team has up to three months to implement a fix based on the severity of the report. Please allow for this process to fully complete before you publicly disclose the vulnerability.
 
 ## Eligibility
 
-Our bug bounty program is open to anyone who is interested in helping us improve the security of our platform. This includes security researchers, developers, and enthusiasts.
+Our bug bounty program is open to anyone interested in helping us improve the security of our platform. This includes security researchers, developers, and enthusiasts.
 However, the following individuals and groups are not eligible to participate in our bug bounty program:
-- The People's SCE employees and contractors
+- Employees and contractors of The People's SCE
 - Anyone who has previously breached our terms of service or engaged in malicious activity on our platform
 
 ## Scope
@@ -85,7 +85,7 @@ To report a vulnerability, please send an email to <support@ecredits.com> with t
 - Steps to mitigate the vulnerability
 - Any relevant screenshots or proof-of-concept code
 - Your name (or handle) and contact information (email address or social media handle)
-- Please do not publicly disclose the vulnerability until we have had a chance to investigate and address it.
+- Please do not publicly disclose the vulnerability until we've had a chance to investigate and address it.
 
 ## Legal
 

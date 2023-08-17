@@ -7,7 +7,7 @@ Ensuring the security of a blockchain platform is critical, especially when it's
 
 ## eCredits Security Audits
 
-- **eCredits eVault Audit**: [eVault](/docs/consumers/evault.md) allows users to deposit eCredits and get rewarded. The eVault smart contracts have been audited by [Nethermind](https://nethermind.io/). You can find the full Report here: [eCredits eVault Audit Report](/files/2023_eVault_review_nethermind.pdf)
+- **eCredits eVault Audit**: [eVault](/consumers/evault.md) allows users to deposit eCredits and get rewarded. The eVault smart contracts have been audited by [Nethermind](https://nethermind.io/). You can find the full Report here: [eCredits eVault Audit Report](/files/2023_eVault_review_nethermind.pdf)
 
 ## Relevant Security Reports from Ethereum's Geth Client
 

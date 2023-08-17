@@ -9,6 +9,99 @@ As with any computer system, it's crucial that your node remains up to date and 
 
 Updates to the eCredits Docker container will be communicated via the community channels like our Elements channel.
 
+### Update via eCredits Script
+
+if you use the ecredits node maintenance script, you can update your node via:
+
+```bash
+ecredits
+```
+
+It will show you a few options, please select `4` to update your node. The script will download the latest version of the container, will restart
+the node and will ask you for your password. Please enter your password to unlock the validator. Once it's up and running, press `6` to check the logs.  
+
+If the logs do not show a new potentially mined block, please try to unlock again and make sure that the address of the account matches with the one of
+your validator.
+
+#### Update OS
+
+You should update the operating system on a regular base. If you use debian or ubuntu, you can update your node via:
+
+```bash
+sudo apt update && sudo apt upgrade -y
+sudo reboot
+```
+
+This will update your system and reboot the device. After the reboot, please login, type `ecredits` and select `2` to start mining. The system will ask you for
+the password to unlock your account.
+
+### Manual Update
+
+If you do not use the eCredits script, please follow the following steps:
+
+#### Step 1: Update OS
+
+Update all packages of your operating system to the latest version. It depends on the operating system, but for debian based systems such as ubuntu, execute:
+
+```bash
+sudo apt update && sudo apt upgrade -y
+sudo reboot
+```
+
+#### Step 2: Update container version
+
+Modify the docker-compose (/var/lib/eCredits/validator.docker-compose.yaml) file for the validator so that it matches: <https://docs.ecredits.com/files/node-setup/validator.docker-compose.yaml>. Do not forget to set the etherbase address to yours (if you use it).
+
+```bash
+sudo nano /var/lib/eCredits/validator.docker-compose.yaml
+```
+
+#### Step 3: restart the container
+
+restart the container and check the log files if everything works as expected:  
+
+```bash
+docker exec ecredits_ecs-node_1 killall -INT geth
+docker-compose -f /var/lib/eCredits/validator.docker-compose.yaml up -d
+docker logs --tail 100 -f ecredits_ecs-validator_1
+```
+
+#### Step 3.1: database issues or others
+
+when you upgrade from a very old version, there is a chance that your db will be corrupted or another issue occurs. You will recognize that by looking into the transactions
+. In such cases, you can stop the container and reset the db via:
+
+```bash
+DATADIR=/var/lib/eCredits
+docker-compose -f $DATADIR/validator.docker-compose.yaml down
+
+docker run -it -v $DATADIR/genesis.json:/etc/config/genesis.json -v $DATADIR/datadir:/root/.ethereum -e POD_NAME --entrypoint geth ecredits/node:latest removedb
+
+docker-compose -f /var/lib/eCredits/validator.docker-compose.yaml up -d
+```
+
+#### Step 4: unlock account and start mining
+
+```bash
+docker exec -it ecredits_ecs-validator_1 geth attach
+```
+
+within geth:
+
+```javascript
+personal.unlockAccount("<Address>", "<PW>", 0)
+miner.start()
+```
+
+#### Step 5: Verify if your node runs as expected
+
+check the log files if everything works as expected:  
+
+```bash
+docker logs --tail 100 -f ecredits_ecs-validator_1
+```
+
+
 ## Monitoring
 As your Validator Node is part of the eCredits community and is a crucial element of the entire ecosystem, it's important that you keep it up and validating as much as possible. To do so - and to recognize if, for example, a power outage stopped your validating process - we suggest establishing proper monitoring for your node.
 
@@ -75,6 +168,8 @@ docker exec -it ecredits_ecs-validator_1 geth --exec 'clique.propose("0x....", f
 
 ## Backup
 
+Backing up your keystore file is essential for safeguarding your valuable cryptographic keys. In the event of data loss, hardware failure, or security breaches, having a secure backup ensures that you can regain access to your encrypted information and digital assets. By maintaining a reliable backup, you protect yourself from potential catastrophic consequences and ensure the continuity and security of your digital presence.
+
 ### How can I backup my keystore file?
 
 1. **Making local copy of keystore**
@@ -90,9 +185,21 @@ docker exec -it ecredits_ecs-validator_1 geth --exec 'clique.propose("0x....", f
     cd keystore
 
     ls
+
+    exit
     ```
 
     Record the filename from the output.
+
+    Example: `UTC--2021-10-11T15-23-03.0123456789--0123456789abcdef0123456789abcdef12345678`
+
+    A keystore file is typically associated with blockchain-based systems and is used to store private keys securely.  
+    Let's break down the example filename:  
+    - **UTC--:** This is a prefix that indicates the file is following the Universal Time Coordinated (UTC) format. It helps in identifying the timestamp 
+    format of the file.  
+    - **2021-10-11T15-23-03.0123456789:** This part represents the date and time when the keystore file was created or generated. In the example, it shows October 11, 2021, at 15:23:03, with milliseconds represented by 0123456789.  
+    - **--:** This is a separator in the filename, which helps separate the timestamp from the next part.  
+    - **0123456789abcdef0123456789abcdef12345678:** This part is the unique identifier for the keystore file. It's the wallet address of the wallet the keystore is holding.
 
     To ensure a local backup of the keystore file, execute the following command to copy the keystore file:
 
@@ -139,9 +246,9 @@ docker exec -it ecredits_ecs-validator_1 geth --exec 'clique.propose("0x....", f
     - Replace "username" with your validator username.
     - Replace "validator_ip" with the IP address of your validator.
     - Replace "filename" with the actual keystore file name that you wish to back up.
-    - Modify "/path/to/destination/folder" to the desired folder location on the backup machine where you want to save the file.
-
-    :::info
+    - Modify "/path/to/destination/folder" to the desired folder location on the backup machine where you want to save the file.  
+	
+	:::info
     Make sure the file is backed up on your backup machine!
     :::
 
@@ -149,25 +256,11 @@ docker exec -it ecredits_ecs-validator_1 geth --exec 'clique.propose("0x....", f
 
 1. **Restoring the keystore file to validator**
 
-   Restoring your keystore file is a straightforward process if you have a backup. Simply follow these steps to successfully restore it:
+   Restoring your keystore file is a straightforward process. Ensure you have a backup of your keystore file and simply follow these steps to successfully restore it:
 
-    - Ensure you have a backup of your keystore file.
-    - Add the backup file to the folder '/var/lib/eCredits/datadir/keystore' on your validator.
-
-    :::info
-    Please note that the specific approach to restoring may vary depending on your chosen backup strategy. Here's one example of how you can
-    perform the restoration. Adapt the steps accordingly based on your situation:
-    :::
-
-    - Access your validator.
-    - Navigate to the location of your keystore backups.
-    - Copy the desired keystore backup file to the '/var/lib/eCredits/datadir/keystore' folder on your validator.
-
-   By following these steps, your keystore file will be successfully restored, provided you have a valid backup in place.
-
-   :::info
-   Before proceeding with any SSH-related tasks, ensure that OpenSSH-Server is installed on your validator. If it's not installed, you can use the
-   following commands to install it:
+	:::info
+	Before proceeding with any SSH-related tasks, ensure that OpenSSH-Server is installed on your validator. If it's not installed, you can use the
+	following commands to install it:
 
     ```bash
     sudo apt update
@@ -175,9 +268,9 @@ docker exec -it ecredits_ecs-validator_1 geth --exec 'clique.propose("0x....", f
     sudo apt install openssh-server
     ```
 
-    :::
+	:::
 
-    On your backup machine where your keystore file is located, open Command Prompt or PowerShell and use the following command to copy the key to
+	On your backup machine where your keystore file is located, open Command Prompt, Terminal or PowerShell and use the following command to copy the key to
     your validator:
 
     ```bash
@@ -188,9 +281,9 @@ docker exec -it ecredits_ecs-validator_1 geth --exec 'clique.propose("0x....", f
 
 2. **Relocating keystore file to right place**
 
-    Your keystore file is copied to `/home/test/`.
+    Your keystore file is copied to `/home/<username>/`.
 
-    Copy back keystore file to the `/var/lib/eCredits/datadir/keystore` location.
+    Copy back keystore file to the `/var/lib/eCredits/datadir/keystore` location by following these steps:
 
     ```bash
     cd /var/lib/eCredits/datadir
@@ -199,7 +292,7 @@ docker exec -it ecredits_ecs-validator_1 geth --exec 'clique.propose("0x....", f
 
     cd keystore
 
-    sudo cp /home/test/<filename> /var/lib/eCredits/datadir/keystore
+    sudo cp /home/<username>/<filename> /var/lib/eCredits/datadir/keystore
     ```
 
-   After copying the keystore file back to your Validator, you can use the `ls` command to check if the file has been successfully copied.
+   After copying the keystore file back to your Validator on right location, you can use the `ls` command to check if the file has been successfully copied.

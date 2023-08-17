@@ -7,7 +7,7 @@ The following contains a quick walkthrough of the installation of a **Validator*
 
 :::info
 
-Please ensure you meet all [prerequisites](/validators/personal_node_setup.md#prerequisites) for running a node!
+Please ensure you meet all [prerequisites](/validators/node_setup.md#prerequisites) for running a node!
 
 :::
 

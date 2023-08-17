@@ -24,4 +24,4 @@ Here are the key purposes of validators in the eCredits Blockchain:
 
 6. **Governance and Consensus Rule Changes**: Validators in the eCredits Blockchain also participate in governance and decision-making processes. They  have the ability to vote on proposed protocol upgrades, changes in network parameters, or modifications to the consensus rules. Validators contribute to shaping the future development and evolution of the eCredits Blockchain by participating in these decision-making processes.
 
-In order to become a validator and become part of the eCredits community, you need to first setup your [own validator hardware](personal_node_setup.md) or buy one at our [shop](https://shop.ecredits.com).
+In order to become a validator and become part of the eCredits community, you need to first setup your [own validator hardware](node_setup.md) or buy one at our [shop](https://shop.ecredits.com).

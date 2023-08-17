@@ -1,7 +1,7 @@
 ---
-sidebar_position: 4
+sidebar_position: 3
 ---
-# Personal Node Setup
+# Node Setup
 
 This document describes all necessary steps to setup an eCredits Validator Node to participate in the eCredits blockchain network. The intended audience for this documentation are administrators, developers, and other interested people who wish to run a node.
 
