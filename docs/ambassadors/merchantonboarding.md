@@ -37,13 +37,13 @@ Ambassadors should communicate these benefits to Merchants:
 - eActivity Transaction Bonus: 50% of the paid transaction fees in ACT.
 - Merchant Subscription Bonus: 300 ACT is granted once the Merchant Subscription is paid
 
-Communicate Merchant Fees:
-
-- Merchant Subscription: Charged annually in ECS
-- Transaction Fees: Costs to receive transactions from Consumers (gas costs included)
+Make sure to also communicate Merchant Fees:
+- Optional: Premium Business Subscription (must be renewed annually)
+- Transaction Fees: Costs to receive transaction s from Consumers (gas costs included)
 - Network Fees: Paid by a Merchant for sending funds to other wallets, or refunds
 
-Code of Conduct
+
+## Code of Conduct
 We want to ensure that the behavior of our Ambassadors is in line with our ethos. 
 
 These rules must be followed:
