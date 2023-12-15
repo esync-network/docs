@@ -66,7 +66,7 @@ const config = {
         title: 'Home',
         logo: {
           alt: 'eCredits',
-          src: 'img/small_e.png',
+          src: 'img/ecs-e-only_small.png',
         },
         items: [
           {
