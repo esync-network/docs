@@ -37,11 +37,31 @@ The Seed Phrase is a 12-word security key in a specific order for the eWallet Ap
 - Check your email for a confirmation code and enter it in the eWallet App.
 - Choose the account type "Create Merchant profile" when prompted.
 - Set up your business details. If you are a Cashback Partner, connect to your myWorld Account.
-- Activate your Business Subscription in the "Subscriptions" tab.  
+- Choose your Business Subscription and activate it in the "Subscriptions" tab.  
 
 Congratulations! You are now an eCredits Merchant!
 
-For more on the registration and setup process, refer to this [video tutorial](https://staging-ecredits.kinsta.cloud/en/wp-content/uploads/sites/1/2023/02/eCredits_Merchant_Registration_v3.mp4)
+#### Business Subscription Plans
+Depending on your or your business’ needs, you can choose a Basic Business Subscription or a Premium Business Subscription. 
+A *Premium Business Subscription* is recommended if you have several stores you would like to accept eCredits (ECS) at with half the Transaction Cost of the Basic Business Subscription. 
+
+Additionally included in the Premium Business Subscription is the following: 
+- Multiple stores
+- 0.5% Transaction Costs
+- User Management System in the Web Portal 
+- eCredits Cashier App (running on smartphones, tablets and notebooks)
+- Exclusive marketing tools, including the Deals functionality, which allows you to communicate special offers in the eWallet App to eCredits Users.
+The price of this Subscription Plan is €99 per year (excl. VAT). The Premium Business Subscription is a yearly subscription that has to be renewed at expiry. 
+
+A *Basic Business Subscription* is best suited for Merchants with one store that are not looking for further functionalities that will accompany the ECS transactions and the exposure in the eWallet App map.
+Included in the Premium Business Subscription is the following:
+- One store
+- 1% Transaction Costs
+This Subscription Plan is free of charge and is not limited in duration. 
+
+Both subscription plans ensure access to the eCredits Academy, where you can learn more about eCredits, incentive programs for you and your customers, Merchant tools, and other eCredits topics. Enroll in the eCredits Academy Merchant Courses [here](https://academy.ecredits.com/pages/merchants). Currently, the Merchant course is available in English and Italian. 
+
+For more on the registration and setup process, refer to this [video tutorial](https://dl.ecredits.com/videos/eCredits_Merchant_Registration_v3.mp4)
 
 ### Step 3: Exchange Authentication
 Next, connect your eCredits account to your Blocktrade account. Blocktrade is a third-party exchange provider that provides several features, such as Instant Trade, in the eWallet App.

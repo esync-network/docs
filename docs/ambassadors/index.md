@@ -18,7 +18,8 @@ How to get started:
 ## Why should I become an Ambassador?
 
 - Finder’s Fee:  
-    200 Euro in ECS  for every new Merchant you onboard who purchases a Merchant Subscription
+  - 10 Euro in ECS for every new Merchant you onboard that subscribed to a Basic Business Subscription, set up their eWallet App account and made their first transaction in ECS. 
+  - 80 Euro in ECS for every new Merchant you onboard that purchased a Premium Business Subscription. 
 - Revenue Share:  
     Earn 20% of the amount of the first year’s transaction fees paid by your Merchant
 - eActivity Invite Bonus: 
