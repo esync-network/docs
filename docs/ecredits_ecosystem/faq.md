@@ -43,18 +43,9 @@ If you lose it or it gets stolen, you lose access to your eWallet and your f
 No! You can use one wallet address for everything, but you can also create as many additional addresses as you want to help you better organize your funds. 
 
 ## How does the ACT Swap work? 
-Starting December 18, 2023, ACT Swap is open to all Business and Personal Users within the eCredits Ecosystem. This enables direct conversion of eActivity (ACT) to eCredits (ECS) through a smart contract on the eCredits Blockchain.  
+'ACT' means eActivity, the rewards program for active eCredits users. 
 
-To initiate ACT Swap, use your eCredits Wallet App with your existing ACT balance.  
-
-The monthly swap, set at a 1:1 exchange rate (1 ACT = 1 ECS), allows a maximum of 50,000 ACT per cycle per address. Swap cycles vary in duration but generally align with a calendar month, concluding at month-end and starting with the first time any eCredits user begins their ACT Swap in the given month. 
-
-Key considerations for ACT Swap: 
-- You can swap from any address in your eWallet. 
-- Please note, in your eWallet, there must be enough ECS on the address you’re using for the ACT to pay the gas fees. 
-- Converting ECS to ACT is not supported. 
-- Basic ACT Swap can be executed from any wallet, as it's independent of The SCE, and facilitated by a smart contract. 
-
+Currently the swap from ACT to ECS (eCredits) is unavailable. Once the swap goes live, we'll inform all eCredits users and instruct them how to use it.
 
 ## What's the differences between resetting the Seed Phrase and resetting the password?
 
