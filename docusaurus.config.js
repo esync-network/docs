@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'eCredits Docs',
   tagline: 'Learn all about the people\’s currency',
-  favicon: 'img/small_e.png',
+  favicon: 'img/ecs-e-only_small.png',
 
   // Set the production url of your site here
   url: 'https://docs.ecredits.com',
