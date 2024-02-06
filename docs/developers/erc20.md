@@ -1,6 +1,6 @@
 # Create an ERC-20 Token
 
-In this guide, we'll demonstrate how to create a custom ERC-20 token on the eCredits Blockchain using the Hardhat development environment. Hardhat is a popular development tool for building smart contracts on the Ethereum network. We'll use the OpenZeppelin contracts, which are a suite of reusable, secure smart contracts. These contracts have been thoroughly tested and audited by the community, which provides developers with a solid foundation to build upon, while reducing potential security risks associated with building smart contracts from scratch. We'll then deploy the contract on the eCredits Testnet and the eCredits Mainnet.
+In this guide, we'll demonstrate how to create a custom ERC-20 token on the eSync Network using the Hardhat development environment. Hardhat is a popular development tool for building smart contracts on the Ethereum network. We'll use the OpenZeppelin contracts, which are a suite of reusable, secure smart contracts. These contracts have been thoroughly tested and audited by the community, which provides developers with a solid foundation to build upon, while reducing potential security risks associated with building smart contracts from scratch. We'll then deploy the contract on the eCredits Testnet and the eCredits Mainnet.
 
 ## Prerequisites
 
@@ -138,7 +138,7 @@ npx hardhat run --network ecredits_test scripts/deploy.js
 ```
 
 If the deployment is successful, the console will display a message with the contract address. Save this address as you will need it to interact with your ERC-20 token.  
-Once the deployment is done, you will see a "Token Minting" transaction at the [eCredits Testnet Block Explorer](https://explorer.tst.ecredits.com/).
+Once the deployment is done, you will see a "Token Minting" transaction at the [eCredits Testnet Block Explorer](https://explorer.tst.esync.network/).
 
 ## Step 5: Interact with your ERC-20 token
 

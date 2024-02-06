@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Coins/Tokens
 
-The eCredits ecosystem consists of two main tokens/coins on the eCredits Blockchain: The native 
+The eCredits ecosystem consists of two main tokens/coins on the eSync Network: The native 
 cryptocurrency, eCredits (**ECS**), which is used to pay gas fees and for transactions. The reward token eActivity (**ACT**),
 which can be earned as reward for being active in the Ecosystem.
 

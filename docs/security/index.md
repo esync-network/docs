@@ -7,11 +7,11 @@ eCredits is a Layer-1 EVM (Ethereum Virtual Machine)-compatible blockchain platf
 
 ## Immutable and Transparent Transactions
 
-Like Ethereum and other EVM-compatible blockchains, eCredits provides immutable and transparent transaction records. Once a transaction is validated and recorded on a block, it can't be altered or removed. This immutability ensures a high degree of transparency and accountability, as anyone can audit the transactions and verify their accuracy.
+Like Ethereum and other EVM-compatible blockchains, eSync Network provides immutable and transparent transaction records. Once a transaction is validated and recorded on a block, it can't be altered or removed. This immutability ensures a high degree of transparency and accountability, as anyone can audit the transactions and verify their accuracy.
 
-All transactions can be queried by running a node or by using the public block explorer which is available at <https://explorer.ecredits.com>. 
+All transactions can be queried by running a node or by using the public block explorer which is available at <https://explorer.esync.network>. 
 
-[Scorechain](https://www.scorechain.com/) is a compliance solution for crypto asset regulation and is used by several exchanges and other organizations that integrated eCredits to comply with crypto regulation or anti-money laundering rules.
+[Scorechain](https://www.scorechain.com/) is a compliance solution for crypto asset regulation and is used by several exchanges and other organizations that integrated eSync Network to comply with crypto regulation or anti-money laundering rules.
 
 ## Decentralized Consensus Mechanism
 
@@ -39,4 +39,4 @@ eCredits incorporates on-chain governance and smart contract upgradability, enab
 
 ## Cryptographic Security
 
-eCredits, like other EVM-compatible chains, uses cryptographic algorithms to secure data. Transactions are digitally signed using a private key, and only the corresponding public key can confirm the signature's authenticity. This level of cryptography ensures the identity of transaction parties and the integrity of the data being transacted.
+eSync Network, like other EVM-compatible chains, uses cryptographic algorithms to secure data. Transactions are digitally signed using a private key, and only the corresponding public key can confirm the signature's authenticity. This level of cryptography ensures the identity of transaction parties and the integrity of the data being transacted.

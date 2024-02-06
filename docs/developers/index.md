@@ -3,17 +3,17 @@ sidebar_position: 1
 ---
 # Developers Overview
 
-## How to develop for the eCredits Blockchain
+## How to develop for the eSync Network
 
-Ethereum has revolutionized the world of blockchain technology, enabling the creation of decentralized applications (dApps) and smart contracts. eCredits builds upon the successful pillars of the Ethereum stack. You can use the same tools and frameworks to bring your dApps to the eCredits blockchain.
+Ethereum has revolutionized the world of blockchain technology, enabling the creation of decentralized applications (dApps) and smart contracts. eCredits builds upon the successful pillars of the Ethereum stack. You can use the same tools and frameworks to bring your dApps to the eSync Network.
 
 As a developer looking to dive into eCredits development, it's crucial to have the right resources at your fingertips.
 
-We've compiled a comprehensive list of the most important developer links for eCredits (and Ethereum blockchain development in general). These resources will help you navigate the Ethereum ecosystem, gain a deeper understanding of smart contract development, explore various tools and frameworks and ultimately deploy your own smart contracts to the eCredits blockchain.
+We've compiled a comprehensive list of the most important developer links for eCredits (and Ethereum blockchain development in general). These resources will help you navigate the Ethereum ecosystem, gain a deeper understanding of smart contract development, explore various tools and frameworks and ultimately deploy your own smart contracts to the eSync Network.
 
 ## Differences between eCredits and Ethereum
 
-From development point of view, since eCredits is an Ethereum Virtual Machine (EVM) based chain, development is nearly identical. 
+From development point of view, since the eSync Network is an Ethereum Virtual Machine (EVM) based chain, development is nearly identical. 
 
 ## Development Stack
 
@@ -41,7 +41,7 @@ Parameters for the Testnet:
 
 | ChainId | RPC                          | Explorer                           |
 |---------|------------------------------|------------------------------------|
-| 63001   | https://rpc.tst.ecredits.com | https://explorer.tst.ecredits.com/ |
+| 63001   | https://rpc.tst.ecredits.com | https://explorer.tst.esync.network/ |
 
 
 hardhat.config:
@@ -50,7 +50,7 @@ hardhat.config:
 {
     networks: {
         testnet: {
-            url: "https://rpc.tst.ecredits.com",
+            url: "https://rpc.tst.esync.network",
             gas: 5000000,
             gasPrice: 10000000000,  // 10 gwei
 }
@@ -58,7 +58,7 @@ hardhat.config:
 
 #### **Faucet**
 
-The Testnet is prepared with a faucet where you can request funds in order to pay for the gas costs when sending transactions to the eCredits Blockchain: https://faucet.tst.ecredits.com/
+The Testnet is prepared with a faucet where you can request funds in order to pay for the gas costs when sending transactions to the eSync Network: https://faucet.tst.ecredits.com/
 
 ### Mainnet
 
@@ -66,7 +66,7 @@ Parameters for the Mainnet:
 
 | ChainId | RPC                      | Explorer                       |
 |---------|--------------------------|--------------------------------|
-| 63000   | https://rpc.ecredits.com | https://explorer.ecredits.com/ |
+| 63000   | https://rpc.ecredits.com | https://explorer.esync.network/ |
 
 hardhat.config:
 
@@ -74,7 +74,7 @@ hardhat.config:
 {
     networks: {
         mainnet: {
-            url: "https://rpc.ecredits.com",
+            url: "https://rpc.esync.network",
             gas: 5000000,
             gasPrice: 10000000000,  // 10 gwei
 }
@@ -185,4 +185,4 @@ Don't forget to have some funds in the wallet that you're going to use for the d
 
 ## Summary
 
-The resources mentioned in this document will serve as your go-to references for learning Solidity, leveraging development tools, and interacting with the eCredits Blockchain. Whether you're a beginner or an experienced developer, start exploring and building exciting decentralized applications on the eCredits Blockchain today!
+The resources mentioned in this document will serve as your go-to references for learning Solidity, leveraging development tools, and interacting with the eSync Network. Whether you're a beginner or an experienced developer, start exploring and building exciting decentralized applications on the eSync Network today!

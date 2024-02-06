@@ -66,7 +66,7 @@ const config = {
         title: 'Home',
         logo: {
           alt: 'eCredits',
-          src: 'img/ecs-e-only_small.png',
+          src: 'img/eCredits-Logo-mark.png',
         },
         items: [
           {
@@ -124,7 +124,7 @@ const config = {
             label: 'Tools',
           },
           {
-            href: 'https://github.com/eCredits',
+            href: 'https://github.com/esync-network',
             label: 'GitHub',
             position: 'right',
           },

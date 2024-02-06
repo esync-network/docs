@@ -3,17 +3,17 @@ sidebar_position: 3
 ---
 # Node Setup
 
-This document describes all necessary steps to setup an eCredits Validator Node to participate in the eCredits blockchain network. The intended audience for this documentation are administrators, developers, and other interested people who wish to run a node.
+This document describes all necessary steps to setup an eSync Network Validator Node to participate in the eSync Network network. The intended audience for this documentation are administrators, developers, and other interested people who wish to run a node.
 
 :::warning
 
-You are solely responsible for your Validator Node. We do not provide any support for eCredits Validator Nodes. This includes but is not limited to support for setting up, maintaining, or updating eCredits Validator Nodes. It's your responsibility to take care of the node and it's security, keeping it up to date, and to participate in the community.
+You are solely responsible for your Validator Node. We do not provide any support for eSync Network Validator Nodes. This includes but is not limited to support for setting up, maintaining, or updating eSync Network Validator Nodes. It's your responsibility to take care of the node and it's security, keeping it up to date, and to participate in the community.
 
 :::
 
 ## Prerequisites
 
-To setup and run an eCredits node, a basic understanding of Linux, Docker, and Bash is 
+To setup and run an eSync Network node, a basic understanding of Linux, Docker, and Bash is 
 required. The examples provided are based on Ubuntu Server 20.04 LTS. 
 
 ### Hardware Requirements

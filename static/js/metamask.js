@@ -27,9 +27,9 @@ function addNet(chainId, chainName, rpcUrl, explorerUrl) {
 }
 
 function addMainNet() {
-    addNet(63000, "eCredits", "https://rpc.ecredits.com", "https://explorer.ecredits.com");
+    addNet(63000, "eSync Network", "https://rpc.ecredits.com", "https://explorer.esync.network");
 }
 
 function addTestNet() {
-    addNet(63001, "eCredits TestNet", "https://rpc.tst.ecredits.com", "https://explorer.tst.ecredits.com");
+    addNet(63001, "eSync Network TestNet", "https://rpc.tst.esync.network", "https://explorer.tst.esync.network");
 }

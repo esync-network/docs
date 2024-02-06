@@ -75,7 +75,7 @@ Please go to our [eCredits Web Shop](https://shop.ecredits.com).
 
 ## What does the block explorer show?
 
-This page <https://explorer.ecredits.com/address/0x050c4bea6019E59dB716d3455d4d271B39E95197/validations> contains information about an address on the blockchain. In this example, this is the address of a validator (there are blocks in the "Blocks validated" tab). As this is a standard address on the blockchain, you can send ECS to and from this address. The tab "blocks validated" contains all blocks that have been validated by this address, therefore:
+This page <https://explorer.esync.network/address/0x050c4bea6019E59dB716d3455d4d271B39E95197/validations> contains information about an address on the blockchain. In this example, this is the address of a validator (there are blocks in the "Blocks validated" tab). As this is a standard address on the blockchain, you can send ECS to and from this address. The tab "blocks validated" contains all blocks that have been validated by this address, therefore:
 
 - Balance: The number of ECS on this address (currently 0.00042 ECS)
 - Tokens: If you send a token to this address, you will see it there (there are currently no tokens on the chain, only the ACT, which is not transferable)
@@ -101,9 +101,9 @@ If you want to replace the public address of the node, you must either generate 
 ## The "Coin Balance History" of the Block Explorer shows a negative balance change (-xx ECS) for my validator. How is that possible?
 
 This is a very unlikely case, but it can happen because of a "reorg" of the blockchain. The Block Explorer shows a list of forked blocks (reorgs). This list contains the block;
-<https://explorer.ecredits.com/block/0x1e456896528757b777c0b5498853b61fc5de6db9dd49d762c8175b466ee05cb7/transactions>
+<https://explorer.esync.network/block/0x1e456896528757b777c0b5498853b61fc5de6db9dd49d762c8175b466ee05cb7/transactions>
 which was created by two validators at the same time, but only this one survived:
-<https://explorer.ecredits.com/block/6905166/transactions>
+<https://explorer.esync.network/block/6905166/transactions>
 
 This block contains a transaction of 1500 ECS * 0.1% fee = ~1.5 ECS. The validation of the block resulted in a +1.49999 ... for the account. The reorg cleaned it up, and therefore the same amount was removed.
 
@@ -127,7 +127,7 @@ Yes, you can check the version of the container by executing `docker ps`. If you
 
 ## Is it possible to run the validator on a Windows machine?
 
-Yes. Docker also runs on Windows machines, therefore the eCredits Validator Node can also run on Windows. Windows users sometimes report issues with the DNS resolving within Docker. In that case, you can fix it by adding the following line to the docker-compose file:
+Yes. Docker also runs on Windows machines, therefore the eSync Network Validator Node can also run on Windows. Windows users sometimes report issues with the DNS resolving within Docker. In that case, you can fix it by adding the following line to the docker-compose file:
 
 ```yaml
     dns:

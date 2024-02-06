@@ -17,8 +17,8 @@ See this in-depth guide on how to set up multisig:
 [Multi Signature Ethereum Wallet - 5 Easy Tips (w/ Code)](https://chainwave.io/multi-signature-ethereum-wallet/)  
 
 ## How to use metamask + ledger 
-Currently, the eCredits Blockchain is not integrated into any ledger device.  
-Since the eCredits Blockchain is built on the Ethereum Blockchain, using ETH works just as well. 
+Currently, the eSync Network is not integrated into any ledger device.  
+Since the eSync Network is built on the Ethereum Blockchain, using ETH works just as well. 
 
 The only downside is that your ECS funds are not shown in the ledger itself. 
 To be able to use a ledger and see your ECS funds, you must:  
@@ -33,7 +33,7 @@ You can do the transactions from Metamask and authenticate with the ledger.
 ## Is eCredits trusted? Does the SCE have my funds? 
 The SCE does not have access to your funds. 
 
-eCredits (ECS) are stored on the decentralized eCredits Blockchain. It is a new blockchain based on the Ethereum protocol, a proven blockchain technology. 
+eCredits (ECS) are stored on the decentralized eSync Network. It is a new blockchain based on the Ethereum protocol, a proven blockchain technology. 
 
 When you register with the eWallet App for the first time, whether it’s a personal or a business account, you'll be asked to create your Seed Phrase. The Seed Phrase is your security key to the eWallet App consisting of 12 words in a specific order. It is crucial to keep your Seed Phrase secure, so that no one else can access it.  
 
@@ -43,7 +43,7 @@ If you lose it or it gets stolen, you lose access to your eWallet and your f
 No! You can use one wallet address for everything, but you can also create as many additional addresses as you want to help you better organize your funds. 
 
 ## How does the ACT Swap work? 
-Starting December 18, 2023, ACT Swap is open to all Business and Personal Users within the eCredits Ecosystem. This enables direct conversion of eActivity (ACT) to eCredits (ECS) through a smart contract on the eCredits Blockchain.  
+Starting December 18, 2023, ACT Swap is open to all Business and Personal Users within the eCredits Ecosystem. This enables direct conversion of eActivity (ACT) to eCredits (ECS) through a smart contract on the eSync Network.  
 
 To initiate ACT Swap, use your eCredits Wallet App with your existing ACT balance.  
 
@@ -94,7 +94,7 @@ You can see them all in the following three places:
 
 - Open your eWallet App and click “eWallet” from the bottom left of the screen. Then click on the wallet you’d like to see. The transactions are listed there. 
 - Go to the Web Portal at https://portal.ecredits.com/ , and log in. The list is there. 
-- Go to the [eCredits Block Explorer](https://explorer.ecredits.com), and paste your Wallet Address into the search bar. You’ll see all your transactions there. 
+- Go to the [eSync Network Block Explorer](https://explorer.esync.network), and paste your Wallet Address into the search bar. You’ll see all your transactions there. 
 
 ## As a Merchant, how do I register and accept ECS purchases? 
 The steps are:  

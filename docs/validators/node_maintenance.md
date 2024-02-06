@@ -111,7 +111,7 @@ To do so, you can:
 3. Monitor the hardware you're running the node on
 
 ### Monitor the blockchain
-The blockchain provides access to information that is available via the RPC endpoints. As the eCredits Blockchain is based on Ethereum, you can use the Ethereum RPC libraries to connect to the node.
+The blockchain provides access to information that is available via the RPC endpoints. As the eSync Network is based on Ethereum, you can use the Ethereum RPC libraries to connect to the node.
 
 You can query the RPC endpoint on your own node to collect this information and verify if your node had validated a block within the last 300 validated blocks.
 

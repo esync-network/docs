@@ -33,12 +33,12 @@ Prod: <https://widget.api.ecredits.com/swagger/index.html>
 
 ## Additional Resources
 
-### eCredits Blockchain Explorer
+### eSync Network Explorer
 
 Web application to look up transaction hashes and wallet balances.
 
-Test: <https://explorer.tst.ecredits.com/>  
-Prod: <https://explorer.ecredits.com/>
+Test: <https://explorer.tst.esync.network/>  
+Prod: <https://explorer.esync.network/>
 
 
 ## eCredits Widget API Authentication
@@ -187,7 +187,7 @@ REQUEST DATA:
 
 **Response:**
 
-A string list of transaction hashes (can be looked up in eCredits Blockchain Explorer).
+A string list of transaction hashes (can be looked up in eSync Network Explorer).
 
 **RESPONSE DATA:**
 
