@@ -9,13 +9,13 @@ This information only applies to nodes that have been bought in our [eCredits We
 
 :::
 
-Congratulations on your new eCredits Validator Node! This node is already preconfigured with software, but you still must maintain the node and run through the setup process. 
+Congratulations on your new eSync Network Validator Node! This node is already preconfigured with software, but you still must maintain the node and run through the setup process. 
 This documentation should guide you through the process, but please also make sure to check the [Node Setup](node_setup.md#node-setup) and [Maintenance](node_maintenance.md) sections.
 
 :::warning
 
-You are solely responsible for your Validator Node. We do not provide any support for eCredits Validator Nodes. This includes 
-but is not limited to support for setting up, maintaining, or updating eCredits Validator Nodes. It's your responsibility to 
+You are solely responsible for your Validator Node. We do not provide any support for eSync Network Validator Nodes. This includes 
+but is not limited to support for setting up, maintaining, or updating eSync Network Validator Nodes. It's your responsibility to 
 take care of the node and it's security, keeping it up to date, and to participate in the community.
 
 :::

@@ -41,10 +41,10 @@ How to get started:
 
 - [eCredits Academy](https://academy.ecredits.com/)
 - [The People’s SCE Affiliate Program](https://ecredits.com/en/affiliate-program/)
-- [eCredits Whitepaper](https://github.com/eCredits/whitepaper)
+- [eCredits Whitepaper](https://github.com/esync-network/whitepaper)
 - [eWallet App for smartphones](https://link.ecredits.com/app/install)
 - [eCredits Web Portal](https://portal.ecredits.com/)
-- [eCredits Block Explorer](https://explorer.ecredits.com/)
+- [eSync Network Block Explorer](https://explorer.esync.network/)
 - [List of countries](https://ecredits.com/en/countries/)
 - [SCE Affiliate Program T&C](https://dl.ecredits.com/legal/affiliate-program-gtc.pdf)
 - [SCE General eWallet T&C](https://dl.ecredits.com/legal/eWallet-gtc.pdf)

@@ -17,8 +17,8 @@ give you a quick overview of the different tools and services available within t
 <tbody>
 <tr><td>eWallet App for smartphones</td><td><a href="https://link.ecredits.com/app/install">https://link.ecredits.com/app/install</a></td></tr>
 <tr><td>eCredits Web Portal</td><td><a href="https://portal.ecredits.com/">https://portal.ecredits.com/</a></td></tr>
-<tr><td>eCredits Mainnet Block Explorer</td><td><a href="https://explorer.ecredits.com/">https://explorer.ecredits.com/</a></td></tr>
-<tr><td>eCredits Blockchain Website</td><td><a href="https://chain.ecredits.com/">https://chain.ecredits.com/</a></td></tr>
+<tr><td>eSync Network Mainnet Block Explorer</td><td><a href="https://explorer.esync.network/">https://explorer.esync.network/</a></td></tr>
+<tr><td>eSync Network Website</td><td><a href="https://esync.network/">https://esync.network/</a></td></tr>
 <tr><td>eCredits Documentation</td><td><a href="https://docs.ecredits.com">https://docs.ecredits.com</a></td></tr>
 <tr><td>eCredits Academy</td><td><a href="https://academy.ecredits.com/">https://academy.ecredits.com/</a></td></tr>
 <tr><td>eCredits Support Portal</td><td><a href="https://support.ecredits.com/">https://support.ecredits.com/</a></td></tr>
@@ -26,13 +26,13 @@ give you a quick overview of the different tools and services available within t
 <tr><td>eCredits Webshop</td><td><a href="https://shop.ecredits.com/">https://shop.ecredits.com/</a></td></tr>
 <tr><td>The People's SCE</td><td><a href="https://thesce.org/">https://thesce.org/</a></td></tr>
 <tr><td>The People’s SCE Affiliate Program</td><td><a href="https://ecredits.com/en/affiliate-program/">https://ecredits.com/en/affiliate-program/</a></td></tr>
-<tr><td>eCredits Whitepaper</td><td><a href="https://github.com/eCredits/whitepaper">https://github.com/eCredits/whitepaper</a></td></tr>
+<tr><td>eCredits Whitepaper</td><td><a href="https://github.com/esync-network/whitepaper">https://github.com/esync-network/whitepaper</a></td></tr>
 <tr><td>eCredits Link Tree</td><td><a href="https://linktr.ee/ecredits">https://linktr.ee/ecredits</a></td></tr>
-<tr><td>eCredits Testnet Block Explorer</td><td><a href="https://explorer.tst.ecredits.com/">https://explorer.tst.ecredits.com/</a></td></tr>
+<tr><td>eSync Testnet Mainnet Block Explorer</td><td><a href="https://explorer.tst.esync.network/">https://explorer.tst.esync.network/</a></td></tr>
 <tr><td>eCredits Testnet Faucet</td><td><a href="https://faucet.tst.ecredits.com/">https://faucet.tst.ecredits.com/</a></td></tr>
-<tr><td>eCredits GitHub</td><td><a href="https://github.com/eCredits">https://github.com/eCredits</a></td></tr>
+<tr><td>eCredits GitHub</td><td><a href="https://github.com/esync-network">https://github.com/esync-network</a></td></tr>
 <tr><td>eCredits Docker Hub</td><td><a href="https://hub.docker.com/u/ecredits">https://hub.docker.com/u/ecredits</a></td></tr>
-<tr><td>eCredits Validator Elements Channel</td><td><a href="https://matrix.to/#/#ecredits:matrix.org/">https://matrix.to/#/#ecredits:matrix.org/</a></td></tr>
+<tr><td>eSync Network Validator Elements Channel</td><td><a href="https://matrix.to/#/#ecredits:matrix.org/">https://matrix.to/#/#ecredits:matrix.org/</a></td></tr>
 <tr><td>eCredits Gnosis Multisig Wallet</td><td><a href="https://multisig.ecredits.com">https://multisig.ecredits.com</a></td></tr>
 </tbody>
 </table>
@@ -70,10 +70,10 @@ More information about the exchanges and the integration can be found at [Exchan
 - [EXMO](https://exmo.com/)
 - [Simplex](https://buy.simplex.com/?crypto=ECS)
 
-## eCredits Blockchain Listing
+## eSync Network Listing
 
-- [Chainlist - eCredits Mainnet](https://chainlist.org/chain/63000)
-- [Chainlist - eCredits Testnet](https://chainlist.org/chain/63001)
+- [Chainlist - eSync Network Mainnet](https://chainlist.org/chain/63000)
+- [Chainlist - eSync Network Testnet](https://chainlist.org/chain/63001)
 - [CoinCarp](https://www.coincarp.com/chainlist/ecredits-mainnet/)
 
 ## Community Channels
@@ -83,11 +83,8 @@ More information about the exchanges and the integration can be found at [Exchan
 <tr><th>Channel</th><th>URL</th></tr>
 </thead>
 <tbody>
-<tr><td>Twitter</td><td><a href="https://twitter.com/eCredits_com">https://twitter.com/eCredits_com</a></td></tr>
 <tr><td>YouTube</td><td><a href="https://www.youtube.com/channel/UCWIyeUd2DPTNnpcScrrEYMg">https://www.youtube.com/channel/UCWIyeUd2DPTNnpcScrrEYMg</a></td></tr>
-<tr><td>Telegram</td><td><a href="https://t.me/ecredits_com">https://t.me/ecredits_com</a></td></tr>
 <tr><td>Instagram</td><td><a href="https://www.instagram.com/ecredits_com/">https://www.instagram.com/ecredits_com/</a></td></tr>
-<tr><td>LinkedIn</td><td><a href="https://www.linkedin.com/company/ecredits/">https://www.linkedin.com/company/ecredits/</a></td></tr>
 <tr><td>Facebook</td><td><a href="https://www.facebook.com/ecredits.official">https://www.facebook.com/ecredits.official</a></td></tr>
 </tbody>
 </table>

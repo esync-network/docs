@@ -23,7 +23,7 @@ to Metamask.
 <tr><th align="left">RPC URL</th><td>https://rpc.ecredits.com</td><td>https://rpc.tst.ecredits.com</td></tr>
 <tr><th align="left">ChainID</th><td>63000</td><td>63001</td></tr>
 <tr><th align="left">Symbol</th><td>ECS</td><td>ECS</td></tr>
-<tr><th align="left">Block Explorer URL</th><td><a href="https://explorer.ecredits.com">https://explorer.ecredits.com</a></td><td><a href="https://explorer.tst.ecredits.com">https://explorer.tst.ecredits.com</a></td></tr>
-<tr><th align="left">Add to Metamask</th><td><button href="#" onClick={ () => addMainNet() }>Add eCredits MainNet</button></td><td><button href="#" onClick={() => addTestNet()}>Add eCredits TestNet</button></td></tr>
+<tr><th align="left">Block Explorer URL</th><td><a href="https://explorer.esync.network">https://explorer.esync.network</a></td><td><a href="https://explorer.tst.esync.network">https://explorer.tst.esync.network</a></td></tr>
+<tr><th align="left">Add to Metamask</th><td><button href="#" onClick={ () => addMainNet() }>Add eSync Network MainNet</button></td><td><button href="#" onClick={() => addTestNet()}>Add eSync Network TestNet</button></td></tr>
 </tbody>
 </table>

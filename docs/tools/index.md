@@ -14,8 +14,8 @@ The following section contains a list of tools available for the eCredits ecosys
 
 ## Block Explorer
 
-- [eCredits Mainnet Block Explorer](https://explorer.ecredits.com/)
-- [eCredits Testnet Block Explorer](https://explorer.tst.ecredits.com/)
+- [eSync Network Mainnet Block Explorer](https://explorer.esync.network/)
+- [eSync Network Testnet Block Explorer](https://explorer.tst.esync.network/)
 
 ## Web Applications
 
@@ -26,11 +26,11 @@ The following section contains a list of tools available for the eCredits ecosys
 
 ## other useful links
 
-- [eCredits L1 Blockchain Website](https://chain.ecredits.com/)
+- [eSync Network Website](https://esync.network/)
 - [eCredits Documentation](https://docs.ecredits.com)
 - [eCredits Academy](https://academy.ecredits.com/)
 - [eCredits Support Portal](https://support.ecredits.com/)
 - [eCredits Webshop](https://shop.ecredits.com/)
 - [The People's SCE](https://thesce.org/)
-- [eCredits GitHub](https://github.com/eCredits)
-- [eCredits Whitepaper](https://github.com/eCredits/whitepaper)
+- [eSync Network GitHub](https://github.com/esync-network)
+- [eCredits Whitepaper](https://github.com/esync-network/whitepaper)
