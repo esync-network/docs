@@ -1,6 +1,6 @@
 # eVault
 ## What is eVault?
-The eVault is a smart contract in the eWallet App on the eCredits Blockchain, independent from The People's SCE and audited by two entities. It allows you to lock eCredits (ECS) via smart contract for one year and earn rewards.
+The eVault is a smart contract in the eWallet App on the eSync Network, independent from The People's SCE and audited by two entities. It allows you to lock eCredits (ECS) via smart contract for one year and earn rewards.
 By eVaulting, you earn a minimum of 2% rewards on your locked assets. Rewards can be claimed at any time after settling gas fees. The eVaulted assets will not accrue additional rewards after the one-year period.
 
 eVault functionalities enable you to:
