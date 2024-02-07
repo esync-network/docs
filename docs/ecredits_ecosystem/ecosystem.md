@@ -66,7 +66,6 @@ eCredits is integrated by the following service providers:
 More information about the exchanges and the integration can be found at [Exchanges](/ecredits_ecosystem/exchanges)  
 
 - [Blocktrade](https://blocktrade.com)
-- [Bittrex Global](https://bittrex.com) 
 - [EXMO](https://exmo.com/)
 - [Simplex](https://buy.simplex.com/?crypto=ECS)
 
