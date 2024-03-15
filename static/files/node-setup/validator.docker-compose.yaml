@@ -3,7 +3,7 @@ version: "3"
 services:
 
   ecs-validator:
-    image: ecredits/node:1.11.4-ecs-1
+    image: ecredits/node:1.13.5-ecs-2
     volumes:
       - ./datadir:/root/.ethereum
     restart: always
