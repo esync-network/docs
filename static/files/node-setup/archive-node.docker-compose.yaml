@@ -3,7 +3,7 @@ version: "3"
 services:
         
   ecs-node:
-    image: ecredits/node:1.13.5-ecs-2
+    image: ecredits/node:1.13.5-ecs-7
     volumes:
       - ./datadir/:/root/.ethereum
    
