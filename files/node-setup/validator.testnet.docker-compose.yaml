@@ -1,0 +1,120 @@
+services:
+  geth:
+    stop_signal: SIGINT
+    image: ecredits/node:1.13.5-ecs-7
+    networks: 
+      - ecredits
+    volumes:
+      - /var/lib/eSync/testnet/datadir-eth1:/root/.ethereum
+      - ./jwt.testnet.hex:/etc/config/jwt.hex
+    restart: on-failure
+    hostname: ecs1-node
+    ports:
+      - 30305:30305/tcp # p2p
+      - 30305:30305/udp
+      - 6062:6062   # metrics
+      - 8548:8548 # rpc
+      - 8554:8554 # authrpc 
+    environment:
+      - DATA_DIR_ETH1
+      - ETHERBASE
+    entrypoint:
+      - sh
+      - -c
+      - >
+        set -xe;
+        geth
+        --ecs-testnet
+        --port 30305
+        --discovery.port 30305
+        --http
+        --http.api txpool,eth,net,debug,web3
+        --http.addr "0.0.0.0"
+        --http.vhosts "*"
+        --http.corsdomain "*"
+        --http.port 8548
+        --miner.gasprice 1
+        --miner.gaslimit 10000000
+        --rpc.txfeecap 0
+        --verbosity 3
+        --metrics
+        --metrics.addr 0.0.0.0
+        --metrics.port 6062
+        --metrics.expensive
+        --authrpc.jwtsecret=/etc/config/jwt.hex
+        --rpc.enabledeprecatedpersonal
+        --nat extip:${SELF_IP}
+        --authrpc.addr 0.0.0.0
+        --authrpc.vhosts "*"
+        --authrpc.port 8554
+        --miner.etherbase ${ETHERBASE_ACCOUNT}
+  beacon:
+    image: ecredits/lighthouse:5.1.8
+    networks: 
+      - ecredits
+    volumes:
+      - /var/lib/eSync/testnet/datadir-eth2:/root/.lighthouse
+      - ./jwt.testnet.hex:/etc/config/jwt.hex
+    restart: on-failure
+    hostname: ecs2-beacon
+    ports:
+      - 9003:9003/udp # p2p udp
+      - 9003:9003/tcp # p2p tcp
+      - 9002:9002/tcp # quic
+      - 5053:5053/tcp # rest API
+      - 8082:8082/tcp   # metrics
+    entrypoint:
+      - sh
+      - -c
+      - >
+        set -xe;
+        
+        lighthouse beacon_node
+        --network ecs_pubtest
+        --datadir /root/.lighthouse
+        --execution-jwt /etc/config/jwt.hex
+        --execution-endpoint http://geth:8554
+        --port 9003
+        --http
+        --http-address 0.0.0.0
+        --http-port 5053
+        --enr-address ${SELF_IP}
+        --enr-udp-port 9003
+        --enr-tcp-port 9003
+        --discovery-port 9003
+        --boot-nodes enr:-MW4QGyuE26_oYlSGADPWzGBwTjaMnIq4xGGp48aJauAAbXzB5DEo_qYShTp43SnZGoAZ_ZU-OlC25d6Zi6h3py0ACGBjodhdHRuZXRziP__________hGV0aDKQJHAa8QIGMAL__________4JpZIJ2NIJpcISt-QFIhHF1aWOCMsuJc2VjcDI1NmsxoQLLX5qX_rn-i_PgJ8GnfBFnSolX7Ri1jCj83ZRBFgYnCIhzeW5jbmV0cw-DdGNwgjLKg3VkcIIu4Q
+        --trusted-peers 16Uiu2HAm97ZJ5KaKXJBjvXraN5TetcEU9MGsWVFmuXjey8mz4WCo
+        --metrics
+        --metrics-address 0.0.0.0
+        --metrics-port 8082
+        --subscribe-all-subnets
+        --checkpoint-sync-url http://173.249.1.72:8083/
+  validator:
+    image: ecredits/lighthouse:5.1.8
+    networks: 
+      - ecredits
+    volumes:
+      - /var/lib/eSync/testnet/datadir-eth2-validator/:/root/.lighthouse
+    restart: on-failure
+    hostname: ecs2-validator
+    ports:
+      - 8083:8083/tcp   # metrics
+    entrypoint:
+      - sh
+      - -c
+      - >
+        set -xe;
+
+        lighthouse
+        --network ecs_pubtest
+        vc
+        --init-slashing-protection
+        --datadir /root/.lighthouse
+        --beacon-nodes=http://beacon:5053
+        --metrics
+        --enable-high-validator-count-metrics
+        --metrics-address 0.0.0.0
+        --metrics-port 8083
+        --suggested-fee-recipient ${FEE_RECIPIENT_ACCOUNT}
+networks:
+  ecredits:
