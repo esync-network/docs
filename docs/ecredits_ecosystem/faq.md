@@ -5,9 +5,6 @@ By emailing us at [support@ecredits.com](mailto:support@ecredits.com) or reviewi
 ## Where can I report bugs? 
 Report bugs directly to eCredits support team by writing to [support@ecredits.com](mailto:support@ecredits.com)
 
-## Where can I suggest new features? 
-You can suggest new features directly to eCredits support team by writing to [support@ecredits.com](mailto:support@ecredits.com)  
-
 ## How to work with multisig 
 Multi-signature wallets or “multisig wallets” for short, are a type of cryptocurrency wallet for which at least two private keys are needed to sign a transaction.  
 
@@ -16,7 +13,7 @@ Imagine a secure locker with two locks and two keys held by two parties that can
 See this in-depth guide on how to set up multisig:  
 [Multi Signature Ethereum Wallet - 5 Easy Tips (w/ Code)](https://chainwave.io/multi-signature-ethereum-wallet/)  
 
-## How to use metamask + ledger 
+## How to use metamask and ledger 
 Currently, the eSync Network is not integrated into any ledger device.  
 Since the eSync Network is built on the Ethereum Blockchain, using ETH works just as well. 
 
@@ -62,32 +59,6 @@ Resetting your Seed Phrase requires you to delete your existing eWallet, with it
 
 Resetting your password is merely setting a new password for your existing account. During password reset you will retain your wallet and your funds. 
 
-## What are the benefits of a Gold Subscription (80€ incl VAT per year)?
-
-The benefits for Gold Subscribers include: 
-
-- 3% eVaulting Reward 
-- One-hour eVaulting Head Start 
-- eActivity Reward Program 
-- Up to 5% eCashback in ECS 
-- Gold eWallet App Theme npx 
-
-You can become a Gold member by subscribing in the Web Portal. Just log into your account in the [eCredits portal](https://portal.ecredits.com/), go to “subscriptions” from the left sidebar and click “Subscribe” under Gold Membership. 
-
-## What are the benefits of a Platinum Subscription (499€ incl VAT per year)? 
-
-- 6% eVaulting Reward 
-- Two-hour eVaulting Head Start 
-- eActivity Reward Program 
-- Up to 5% eCashback in ECS 
-- Platinum eWallet App Theme 
-- Merchant Subscription Sign-up Voucher 
-- The People’s SCE Membership included 
-- Exclusive events for Platinum subscribers
-
-You can become a Platinum member by subscribing in the Web Portal. Just log into your account in the [eCredits portal](https://portal.ecredits.com/), go to “subscriptions” from the left sidebar and click “Subscribe” under Platinum Membership. 
-
-
 ## Where can I see my transactions?  
 
 You can see them all in the following three places:
@@ -96,7 +67,7 @@ You can see them all in the following three places:
 - Go to the Web Portal at https://portal.ecredits.com/ , and log in. The list is there. 
 - Go to the [eSync Network Block Explorer](https://explorer.esync.network), and paste your Wallet Address into the search bar. You’ll see all your transactions there. 
 
-## As a Merchant, how do I register and accept ECS purchases? 
+## As a Merchant, how do I register and accept ECS purchases?
 The steps are:  
 
 1. Create your account and complete the onboarding. [Here’s our step-by-step guide](https://support.ecredits.com/en/support/solutions/articles/66000502875-signing-up-or-adding-a-business-profile)

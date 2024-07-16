@@ -5,13 +5,16 @@ sidebar_position: 7
 # Log Messages
 
 This section describes some of the log messages of the validator and what they mean:
+## Geth node
+- `Imported new potential chain segment`: New blocks were downloaded from the network and added to the blockchain.
 
-- `Commit new sealing work`: The validator assembled a new block and commits it to the network.  
-- `Imported new chain segment`: New blocks were downloaded from the network and added to the blockchain.
-- `Unindexed transactions`: The node maintains an index of transactions for faster access. This log message means that there are transactions which are not yet indexed.
-- `🔨 mined potential block`: The validator potentially mined a block (potentially, because it must be accepted by all validators).
-- `Deep froze chain segment`: Ancient chain segments are moved out of the active database into immutable append-only files.
-- `🔗 block reached canonical chain`: The block is now on the canonical chain. There could be reorgs which results in temporary forks. The canonical chain is the fork that is accepted by all validators.
-- `Self-blocking signing requested`: A speciality in the consensus algorithm. Basically, all validators start to work on a block, but those who do currently not have the mining slot will add a small delay to it. If a node creates a block without a slot, it must miss the next slot and the delay will be extended and this message will popup.
-- `Block sealing failed err="signed recently, must wait for others"`: The validator signed a block recently and now must wait for the other validators to seal blocks.
-- `Snapshot extension registration failed`: Someone tried to connect to your node, but it failed (because of different configuration), which is fine.
+## Beacon node
+- `New block received`: a block was received from another node.
+- `Synced`: the beacon client has received all the blocks of the blockchain.
+
+
+## Validator node
+- `Waiting for deposit to be observed by beacon node`: Your node has keys imported for which no deposits have been made to the deposit contract.
+- `Submitted new attestations`: node sent the attestation (validation result) of a particular block to the network.
+- `Connected to beacon node(s)`: Shows the status of the connected beacon nodes
+- `Unable to publish signed contributions and proofs`: Indicates a connection issue to the beacon node

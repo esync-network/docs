@@ -3,7 +3,7 @@ sidebar_position: 1
 ---
 # Security Overview
 
-eCredits is a Layer-1 EVM (Ethereum Virtual Machine)-compatible blockchain platform designed to facilitate the development and execution of decentralized applications (DApps) and smart contracts. This document explores the key security features that make eCredits a robust and secure blockchain platform.
+eSync Network is a Layer-1 EVM (Ethereum Virtual Machine)-compatible blockchain platform designed to facilitate the development and execution of decentralized applications (DApps) and smart contracts. This document explores the key security features that make eSync Network a robust and secure blockchain platform.
 
 ## Immutable and Transparent Transactions
 
@@ -15,7 +15,7 @@ All transactions can be queried by running a node or by using the public block e
 
 ## Decentralized Consensus Mechanism
 
-eCredits employs a decentralized consensus mechanism, which distributes control across multiple network participants rather than a single central authority. This architecture prevents any single entity from controlling the network, thereby enhancing its security. The specific consensus mechanism used by eCredits may vary, but it's typically designed to be resilient against common attack vectors.
+eSync Network employs a decentralized consensus mechanism, which distributes control across multiple network participants rather than a single central authority. This architecture prevents any single entity from controlling the network, thereby enhancing its security. The specific consensus mechanism used by eCredits may vary, but it's typically designed to be resilient against common attack vectors.
 
 ## Smart Contract Security
 
@@ -31,11 +31,11 @@ There are several tools available to do a security analysis of your smart contra
 
 ## Gas Fees
 
-To protect against spam and potential Denial of Service (DoS) attacks, eCredits imposes gas fees for each operation performed on the blockchain. By associating a cost with every operation, eCredits discourages malicious actors from overwhelming the network with transactions.
+To protect against spam and potential Denial of Service (DoS) attacks, eSync Network imposes gas fees in ECS for each operation performed on the blockchain. By associating a cost with every operation, eSync Network discourages malicious actors from overwhelming the network with transactions.
 
 ## On-Chain Governance and Upgradability
 
-eCredits incorporates on-chain governance and smart contract upgradability, enabling the network to adapt over time. These features allow the community to propose, vote on, and implement changes to the protocol, effectively addressing new threats and vulnerabilities as they arise.
+eSync Network incorporates on-chain governance and smart contract upgradability, enabling the network to adapt over time. These features allow the community to propose, vote on, and implement changes to the protocol, effectively addressing new threats and vulnerabilities as they arise.
 
 ## Cryptographic Security
 

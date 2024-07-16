@@ -4,10 +4,10 @@ sidebar_position: 3
 # Ledger Hardware Wallet
 
 There is currently no app available for Ledger devices, but you can use the Ethereum app with Metamask to connect 
-to the eCredits network. The usage of Metamask and Ledger hardware wallets is described at <https://metmask.io> or
+to the eSync Network. The usage of Metamask and Ledger hardware wallets is described at <https://metmask.io> or
 <https://www.ledger.com/metamask>.
 
-To use your Ledger device with Metamask and eCredits, please follow these steps:
+To use your Ledger device with Metamask and eSync Network, please follow these steps:
 
 ## Prerequisites
  

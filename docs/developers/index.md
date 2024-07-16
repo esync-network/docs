@@ -5,11 +5,11 @@ sidebar_position: 1
 
 ## How to develop for the eSync Network
 
-Ethereum has revolutionized the world of blockchain technology, enabling the creation of decentralized applications (dApps) and smart contracts. eCredits builds upon the successful pillars of the Ethereum stack. You can use the same tools and frameworks to bring your dApps to the eSync Network.
+Ethereum has revolutionized the world of blockchain technology, enabling the creation of decentralized applications (dApps) and smart contracts. eSync Network builds upon the successful pillars of the Ethereum stack. You can use the same tools and frameworks to bring your dApps to the eSync Network.
 
-As a developer looking to dive into eCredits development, it's crucial to have the right resources at your fingertips.
+As a developer looking to dive into eSync Network development, it's crucial to have the right resources at your fingertips.
 
-We've compiled a comprehensive list of the most important developer links for eCredits (and Ethereum blockchain development in general). These resources will help you navigate the Ethereum ecosystem, gain a deeper understanding of smart contract development, explore various tools and frameworks and ultimately deploy your own smart contracts to the eSync Network.
+We've compiled a comprehensive list of the most important developer links for eSync Network (and Ethereum blockchain development in general). These resources will help you navigate the Ethereum ecosystem, gain a deeper understanding of smart contract development, explore various tools and frameworks and ultimately deploy your own smart contracts to the eSync Network.
 
 ## Differences between eCredits and Ethereum
 
@@ -29,7 +29,7 @@ https://hardhat.org/hardhat-runner/plugins/nomicfoundation-hardhat-toolbox
 
 ## Endpoints & Networks
 
-Currently there are two official eCredits networks, the 
+Currently there are two official eSync Networks: 
 - **Testnet** for testing purposes and the
 - **Mainnet** for production
 

@@ -9,15 +9,15 @@ sidebar_position: 2
 <title>Metamask</title>
 </head>
 
-eCredits is fully compatible with Ethereum and therefore, also Metamask can be used as wallet. The following table 
-contains the required settings as well as an EIP-3085 compatible add button, which allows you, to add eCredits 
+eSync Network is fully compatible with Ethereum and therefore, also Metamask can be used as wallet. The following table 
+contains the required settings as well as an EIP-3085 compatible add button, which allows you, to add eSync Network (ECS). 
 to Metamask.
 
 ## Metamask Settings
 
 <table>
 <thead>
-<tr><th align="left" width="250">Setting</th><th width="250">eCredits MainNet</th><th width="250">eCredits TestNet</th></tr>
+<tr><th align="left" width="250">Setting</th><th width="250">eSync Network MainNet</th><th width="250">eSync Network TestNet</th></tr>
 </thead>
 <tbody>
 <tr><th align="left">RPC URL</th><td>https://rpc.ecredits.com</td><td>https://rpc.tst.ecredits.com</td></tr>

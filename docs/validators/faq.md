@@ -1,27 +1,8 @@
 # FAQ
 
-## How to transfer ECS from the account of the validator?
-
-You must attach to the Geth process and then execute:
-
-```
-eth.sendTransaction({
-    from: "0x...",
-    to: "0x...",
-    value: 1000000000000000000
-})
-```
-
-The value is in wei, so the value above equals to 1 ECS (18 decimals).
-
-Another option is to configure the etherbase address. If you set this to the address of your eWallet, the fees your validator collects will be added to the address you configured as etherbase. You will not see a transaction on the blockchain, but you will see that the value in your eWallet goes up. You can e.g. create a second address in your eWallet that you only use for collecting the fees of the validator. By doing it that way, you will separate your validator income from your daily usage. once there are enough funds on it, you simply transfer it from this account to your main account.
-
 ## To which wallet will my rewards go?
 
-Your rewards will go to one of two possible options:
-
-1. If you have set an **etherbase** account via the control script menu or manually in your ```validator.docker-compose.yaml``` file, your rewards will directly go to this wallet.
-2. If you haven't set up any etherbase account, your rewards will go to the public account of the node.
+Your rewards will go to the accounts that you've set as etherbase account and suggested fee recipient account in your ```validator.docker-compose.yaml```.
 
 :::info
 
@@ -29,37 +10,21 @@ For ease of use, we suggest you use your eCredits wallet address or a sub-accoun
 
 :::
 
-## What is the public account?
-The public account of your node is the account that is used to sign the blocks. It's also the account that you need to provide to the SCE to register as validator or to the community so that the validators can vote for you. It will also identify your node within the network.
-
-## What should I do when my validator needs to be offline for a while?
-As the network depends on the validators doing their work, it's crucial, that they are constantly online.
-
-* If you need to go offline for a short while, please let us know in the validators [elements channel](https://matrix.to/#/#ecredits-validators:matrix.org).
-* If you need to go offline for an extended period of time, also please let us also know via the [elements channel](https://matrix.to/#/#ecredits-validators:matrix.org). For stability reasons the community might decide to remove your node from the validators list during that time. If so, you will need to be added again once you're back, so please also report back in the [elements channel](https://matrix.to/#/#ecredits-validators:matrix.org).
+## What are the validator keys?
+The validator keys are the key's that are used to sign the blocks.
 
 ## Where can I get help when I have issues?
 If you have issues, please connect with our community on the [elements channel](https://matrix.to/#/#ecredits-validators:matrix.org). They are happy to help.
 
 ## Where can I get the control script for my node?
-The control script is only available on the branded nodes bought from the [eCredits Web Shop](https://shop.ecredits.com).
-
-## What does "Erase and reinitialize" in the branded nodes control script mean?
-This setting is intended to completely remove and do a clean setup of your node in case it has any major issues that can't be solved otherwise.
-
-:::warning
-
-Please be aware that this option will also delete the keystore on the node. Thus, you need to re-import your public account wallet after the node has been newly setup.
-
-:::
+The control script is available [here](https://dl.ecredits.com/scripts/ecredits.sh).
 
 ## Do you know an easy and secure way for remote control of my validator?
 
 The preferred way is to use ssh (secure shell). If you are not familiar with ssh, just search for "ssh introduction" or "ssh basics" in your preferred search engine.
 
 ## What does validating a transaction depend on? Is random or determined by a system?
-
-eCredits uses Proof-of-Authority (PoA) as consensus algorithm. This consensus algorithm also determines who the next validator is. In a perfect scenario, where all validators are online, every validator will validate the same number of blocks. So, if there are 100.000 blocks validated and 1.000 validators, every validator should have mined 100 blocks (if everything works perfectly).
+eSync Network uses Proof-of-Stake (PoS) as consensus algorithm. This consensus algorithm also determines who the next validator is. In a perfect scenario, where all validators are online, every validator will validate the same number of blocks. So, if there are 100.000 blocks validated and 1.000 validators, every validator should have mined 100 blocks (if everything works perfectly).
 
 ## How high is the block reward?
 
@@ -67,11 +32,7 @@ The block reward is the sum of all transaction fees that were paid for the trans
 
 ## Am I allowed to run multiple validators?
 
-The SCE will only vote for one validator per user to ensure that the system is decentralized as much as possible. However, if the 
-community votes for your validator you can also have multiple validators.
-
-## Where can I buy a branded node?
-Please go to our [eCredits Web Shop](https://shop.ecredits.com).
+Yes, you only need to generate another key and stake the required 256 ECS to the deposit contract.
 
 ## What does the block explorer show?
 
@@ -86,17 +47,7 @@ This page <https://explorer.esync.network/address/0x050c4bea6019E59dB716d3455d4d
 
 ## Why are there transactions with less than a 0.1% fee?
 
-The eWallet App and most of the eCredits systems use a fee of 0.1% per transaction. This 0.1% is currently not a "hard limit", meaning that someone could use a different fee. There are different reasons why this is possible. The system does currently not force the 0.1%, but those transactions will be preferred and are better integrated into the system (e.g. ACT rewards etc.). 
-
-## What addresses exists and how can I change the public address of my validator?
-
-A validator can have two addresses:
-- **Validator address**. Mandatory. This is the address your validator uses to mine blocks. It is generated as part of the setup process, and you should not replace it with another address. Keep the key for the address on the node for security reasons and make sure that you have a backup of the keyfile.
-- **Etherbase address** Optional. This address will receive all transaction fees (rewards) of the validator. This address can be replaced, e.g. with an eWallet address. One way is to create a separate address in the eWallet where you will see how much ECS the validator has already earned.
-
-The etherbase address can be set as described here: [node setup](/validators/node_setup#start-the-ecredits-node), or by using the eCredits script (type "ecredits" and then select "3")
-
-If you want to replace the public address of the node, you must either generate a new account (which creates a keyfile) or create the required keyfile on your own, put in the right directory (same as where your current keyfile is), restart the container and instead of unlocking the old account, you unlock the new one. However, it also means that you must re-apply as validator, because the new address will not be part of the approved validators and you will get an "unauthorized signer" error.
+The eWallet App and most of the eSync Netowrk systems use a fee of 0.1% per transaction. This 0.1% is currently not a "hard limit", meaning that someone could use a different fee. There are different reasons why this is possible. The system does currently not force the 0.1%, but those transactions will be preferred and are better integrated into the system (e.g. ACT rewards etc.). 
 
 ## The "Coin Balance History" of the Block Explorer shows a negative balance change (-xx ECS) for my validator. How is that possible?
 
@@ -135,3 +86,21 @@ Yes. Docker also runs on Windows machines, therefore the eSync Network Validator
 ```
 
 Please also check if your local time is correct (NTP) and that the port 30303 is open outbound.
+
+## How can I stop to be a validator and withdraw my funds?
+In order to stop being a validator, you need to inform the network that you want to exit.
+This can be done by the following command:
+
+```
+docker run --rm -it --network <name of the docker network> -v "<keystore_path>":/keystore.json -v "<passwordpath>":/password.cfg --name validatorexit ecredits/lighthouse:latest lighthouse --network ecs_pubtest account validator exit --keystore /keystore.json --password-file /password.cfg --beacon-node <URL of your beacon node>
+```
+
+
+This command assumes you're using docker to run your node.
+- name of the docker network -> It's necessary that your beacon node is reachable for this container. Thus it needs to be connected to the same network the beacon node is in
+- keystore_path -> The path to the keystorefile fo the key that should exit. This is usually found in the ```datadir-eth2-validator/validators/<publickey>``` folder.
+- passwordpath -> Path to the file that holds the password for the keystore.
+- URL of your beacon node -> The URL of your beacon node. In our standard dockerfile that would bee http://beacon:5051
+
+
+
