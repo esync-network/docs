@@ -4,9 +4,8 @@ sidebar_position: 3
 
 # Coins/Tokens
 
-The eCredits ecosystem consists of two main tokens/coins on the eSync Network: The native 
-cryptocurrency, eCredits (**ECS**), which is used to pay gas fees and for transactions. The reward token eActivity (**ACT**),
-which can be earned as reward for being active in the Ecosystem.
+The eSync Network Ecosystem contains the following coins and tokens: 
+eCredits (**ECS**) is the native coin of the eSync Network Blockchain, which is used to pay gas fees and for transactions. The reward token eActivity (**ACT**), can be earned as reward for being active in the Ecosystem.
 
 <table>
 <thead>
@@ -21,18 +20,16 @@ which can be earned as reward for being active in the Ecosystem.
 </tbody>
 </table>
 
-## eCredits Price
+## eCredits (ECS) Price
 
 - [CoinMarketCap](https://coinmarketcap.com/currencies/ecredits/)
-- [CoinGecko](https://www.coingecko.com/en/coins/ecredits)
 
 ## Buy eCredits (ECS)
 
-Gateways and exchanges allow users to buy eCredits using fiat or other crypto. You can buy ECS via:
+Gateways and exchanges allow users to buy eCredits (ECS) using fiat or other crypto. You can buy ECS via:
 
 - [Blocktrade](https://blocktrade.com)
-- [Bittrex Global](https://bittrex.com) 
-- [EXMO](https://exmo.com/)
-- [Simplex](https://buy.simplex.com/?crypto=ECS)
+- [Bitrue](https://bitrue.com) 
+- [Bit2Me](https://bit2me.com/)
 
 A list of all exchanges and their functionality can be found under [Exchanges](/ecredits_ecosystem/exchanges.md)

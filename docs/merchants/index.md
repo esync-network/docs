@@ -19,7 +19,7 @@ You must add a store to make your business visible on the map!
 
 ### Step 1: Register your eCredits eWallet App Account
 
-- Download the eWallet App from the [App Store or Google Play](https://link.ecredits.com/app/install)
+- Download the eCredits Wallet App from the [App Store or Google Play](https://link.ecredits.com/app/install)
 - Open the app and click "Sign Up" 
 - Enter your email and password.  Accept the Terms of Service and Privacy Policy
 - You'll receive a confirmation code via email. Enter this code in the app to complete the account creation process
@@ -34,7 +34,7 @@ The Seed Phrase is a 12-word security key in a specific order for the eWallet Ap
 
 - Visit [portal.ecredits.com](https://portal.ecredits.com)
 - Provide your email address and set your password. 
-- Check your email for a confirmation code and enter it in the eWallet App.
+- Check your email for a confirmation code and enter it in the eCredits Wallet App.
 - Choose the account type "Create Merchant profile" when prompted.
 - Set up your business details. If you are a Cashback Partner, connect to your myWorld Account.
 - Choose your Business Subscription and activate it in the "Subscriptions" tab.  
@@ -59,8 +59,6 @@ Included in the Premium Business Subscription is the following:
 - 1% Transaction Costs
 This Subscription Plan is free of charge and is not limited in duration. 
 
-Both subscription plans ensure access to the eCredits Academy, where you can learn more about eCredits, incentive programs for you and your customers, Merchant tools, and other eCredits topics. Enroll in the eCredits Academy Merchant Courses [here](https://academy.ecredits.com/pages/merchants). Currently, the Merchant course is available in English and Italian. 
-
 For more on the registration and setup process, refer to this [video tutorial](https://dl.ecredits.com/videos/eCredits_Merchant_Registration_v3.mp4)
 
 ### Step 3: Exchange Authentication
@@ -80,7 +78,7 @@ To request ECS at the point of sale, you can use either the eCredits Cashier App
 
 If using the Cashier App:
 - Enter the total amount of the purchase. Tap "Continue" to generate a QR code.
-- Ask your customer to scan the QR code with their eWallet App. 
+- Ask your customer to scan the QR code with their eCredits Wallet App. 
 - The customer can review the amount and confirm the transaction.
 - You will receive confirmation of the successful transaction in your Cashier App. 
 Both you and your customer will receive eActivity (ACT) rewards for the transaction. As a Merchant accepting ECS, you will receive a Transaction Bonus of 50% of the paid transaction fees in (ACT).
@@ -94,17 +92,16 @@ Support staff is on duty Monday to Friday, 9:00 am – 5:30 pm (GMT+3). Currentl
 
 | Application             | Link                                                                                                           | About                                                                                                                                                                                             |
 | ----------------------- | -------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| eWallet App             | [Apps](https://link.ecredits.com/app/install)                                                                  | <ul><li>Cryptocurrency acceptance </li><li>Transaction overview</li><li>Refunds and approval requests management</li><li>Multiple stores overview</li><li>The key to eCredits assets</li></ul> |
+| eCredits Wallet App             | [Apps](https://link.ecredits.com/app/install)                                                                  | <ul><li>Cryptocurrency acceptance </li><li>Transaction overview</li><li>Refunds and approval requests management</li><li>Multiple stores overview</li><li>The key to eCredits assets</li></ul> |
 | eCredits Web Portal     | [portal.ecredits.com](https://portal.ecredits.com)                                                             | <ul><li>Transaction overview</li><li>Automatic report generation and delivery</li><li>Store management</li><li>Profile, VAT settings etc.</li><li>Invoice and subscription management</li></ul>   |
 | eCredits Cashier App    | In the Web Portal, go to “Dashboard” or “Transactions” and click “Receive Payments” in the upper right corner. | <ul><li>Transaction overview</li><li>Request ECS and ETH at the point of sale in exchange for goods or services</li><li>Runs on smartphones, tablets, and notebooks</li></ul>                    |
-| eCredits Academy        | [academy.ecredits.com](https://academy.ecredits.com)                                                           | <ul><li>Access to educational content, 24/7</li><li>New courses published regularly</li></ul>                                                                                                     |
 | eCredits Support Portal | [support.ecredits.com](https://support.ecredits.com)                                                           | <ul><li>FAQ section</li><li>Topic-related information about eCredits</li><li>Support contact form</li></ul>                                                                                       |
 
 ## Instant Trade
 Instant Trade is a third-party exchange feature integrated that allows Merchants to convert cryptocurrency (ECS and ETH) to fiat (EUR) instantly.
 
 To enable Instant Trade:
-- Log into the eWallet App using your Business Profile.
+- Log into the eCredits Wallet App using your Business Profile.
 - Tap the "Assets" tab and then "Exchange".
 - Enter your Blocktrade account details and tap "Log in".
 - Log in to the Web Portal. Go to "Business Settings" and select "Account Settings".
@@ -113,4 +110,4 @@ To enable Instant Trade:
 - You will receive a message instructing you to confirm the activation in your eWallet App.
 
 ## Managing Multiple Stores
-In the eCredits Web Portal (in “Settings”, under “Stores”) you can create new and manage your existing stores and online shops. You can see and edit the details of each store, including the logo, description, store address, opening hours, and the website configuration. This information will be accessible to your Consumers on the map in the eWallet App.
+In the eCredits Web Portal (in “Settings”, under “Stores”) you can create new and manage your existing stores and online shops. You can see and edit the details of each store, including the logo, description, store address, opening hours, and the website configuration. This information will be accessible to your Consumers on the map in the eCredits Wallet App.

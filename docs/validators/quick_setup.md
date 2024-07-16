@@ -25,44 +25,20 @@ sudo usermod -aG docker $USER
 
 ```bash
 datadir='/var/lib/eCredits/'
-sudo mkdir -p $datadir/datadir/geth
-cd $datadir
-wget https://docs.ecredits.com/files/node-setup/genesis.json
-wget https://docs.ecredits.com/files/node-setup/validator.docker-compose.yaml
 ```
 
-:::info
+## Setup with script
 
-If you want to use a separate account for your rewards, please update etherbase address before you continue (see below). If not, please make sure to remove the commented lines from the docker-compose file.
+The SCE provides a ready made setup and management script for validators. This script can be donwloaded [here](https://dl.ecredits.com/scripts/ecredits.sh) and will work in the ```/var/lib/esync/mainnet``` or ```/var/lib/esync/testnet``` folders. So please make sure they are not yet used and the disk they are on has sufficient space to hold the chain. Ideally the chain is on a separate partition than your root folder.
 
-:::
-
-## Start Node
+### Installation and execution
+To install the script, just download it to your ```/usr/local/bin/``` directory and apply execution permission to it.
 
 ```bash
-docker-compose -f validator.docker-compose.yaml up -d
-docker exec -it ecredits_ecs-validator_1 geth account new
-# check log files if node is connected and is in sync
-docker logs --tail 10 -f ecredits_ecs-validator_1
+sudo wget "https://dl.ecredits.com/scripts/ecredits.sh" -O /usr/local/bin/esync
+sudo chmod ugo+x /usr/local/bin/esync
 ```
 
-## Start Validation
+Now, when you launch the script with the ```esync``` command, it will lead you through the initial setup of your node.
 
-Your validator must be accepted by the community or the SCE. If you are a member of the SCE, you can apply via mail 
-at <support@ecredits.com>. Please provide your user id (email address) and the address of the validator (0x,etc.).  
-
-```bash
-docker exec -it ecredits_ecs-validator_1 geth attach
-```
-
-Within Geth:
-
-```javascript
-personal.unlockAccount("<Address>", "<PW>", 0)
-miner.start()
-```
-
-Example:
-```javascript
-personal.unlockAccount("0x...", "mySecret", 0)
-```
+If you wish to setup a testnet node, just start it with ```esync testnet``` everytime you want to work with your testnet node. Please be aware, that the testnet node will operate on different ports on your host than the standard ones defined above. You'll need to update your firewall rules accordingly.

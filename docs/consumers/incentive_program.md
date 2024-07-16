@@ -2,7 +2,7 @@
 eCredits comes with two integrated incentive programs: eActivity and eCashback.
 
 ## eActivity
-eActivity is a decentralized reward system on the eSync Network that rewards active users with eActivity reward tokens(ACT) for specific activities like friend invitations or purchases.
+eActivity is a decentralized reward system on the eSync Network that rewards active users with eActivity reward tokens (ACT) for specific activities like friend invitations or purchases.
 ACTs are non-transferable and only for active supporters of the eCredits Ecosystem.
 Learn more about eActivity by watching this [video](https://www.youtube.com/watch?v=9kxIJrifazM&t=13s&pp=ygUSZWFjdGl2aXR5IGVjcmVkaXRz).
 

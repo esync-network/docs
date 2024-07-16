@@ -1,4 +1,4 @@
-# Store setup
+# Store Setup
 
 Once you have created your account and your Business Account, you are ready to add your first store.
 
@@ -10,8 +10,8 @@ To do so, you can again refer to our intro [video](./#how-to-get-started) or fol
 3. Fill in the store details, store address and opening hours. (Address and opening hours are not applicable for online stores)
 4. Done 
 
-## Request ECS payments
-To request payment with ECS, you can use our Cashier App to easily collect ECS.
+## Request ECS transactions
+To request transactions with ECS, you can use our Cashier App to easily collect ECS.
 
 To collect money with the Cashier App, just:
 1. Register the Cashier App for your business
@@ -20,13 +20,6 @@ To collect money with the Cashier App, just:
 4. Once the QR code is shown, ask your customer to scan it with their eWallet App
 5. Once scanned, your customer can check the amount and confirm the transaction. You will then receive confirmation of the successful transaction in your Cashier App.
 
-## Accept payments on your webshop
-To accept payments, we're providing [webshop plugins](./webshop_plugins) for the following store systems:
-- Magento
-- Prestashop
-- Woocommerce
-
-If you're running a custom webshop, you can easily directly integrate with our [API](../developers/ecredits_widget_api)
 
 :::tip
 

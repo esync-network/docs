@@ -13,8 +13,9 @@ docker-compose -f validator.docker-compose.yaml up -d
 ## Stop the node
 
 ```bash
-# 1. kill geth (proper shutdown)
-docker exec ecredits_ecs-node_1 killall -INT geth
+# 1. kill geth and beacon client (proper shutdown)
+docker exec -it mainnet-geth-1 pkill geth
+docker exec -it mainnet-beacon-1 pkill beacon-chain
 
 # 2. shutdown the container
 docker-compose -f validator.docker-compose.yaml down
@@ -24,7 +25,8 @@ docker-compose -f validator.docker-compose.yaml down
 
 ```bash
 # 1. kill geth (proper shutdown)
-docker exec ecredits_ecs-node_1 killall -INT geth
+docker exec -it mainnet-geth-1 pkill geth
+docker exec -it mainnet-beacon-1 pkill beacon-chain
 
 # 2. restart the container
 docker-compose -f validator.docker-compose.yaml restart
@@ -33,69 +35,37 @@ docker-compose -f validator.docker-compose.yaml restart
 ## Show Logs
 
 ```bash
-docker logs --tail 10 -f ecredits_ecs-validator_1
+docker logs --tail 10 -f mainnet-geth-1
+docker logs --tail 10 -f mainnet-beacon-1
+docker logs --tail 10 -f mainnet-validator-1
 ```
 
 ## Connect to Geth
 
 ```bash
-docker exec -it ecredits_ecs-validator_1 geth attach
+docker exec -it mainnet-geth-1 geth attach
 ```
 
-## Start Validation
-
-
-```bash
-docker exec -it ecredits_ecs-validator_1 geth attach
-personal.unlockAccount("<Address>", "<PW>", 0)
-miner.start()
-```
-
-or
+## Clean/Reset/Reinitialize the eth1 database
 
 ```bash
-docker exec -it ecredits_ecs-validator_1 geth --exec "personal.unlockAccount(\"<Address>\",\"<PW>\",0)" attach
-docker exec -it ecredits_ecs-validator_1 geth --exec "miner.start()" 
-```
-
-## Vote for another validator
-
-```bash
-docker exec -it ecredits_ecs-validator_1 geth attach
-clique.propose("0x....", true)
-```
-
-or
-
-```bash
-docker exec -it ecredits_ecs-validator_1 geth --exec 'clique.propose("0x....", true)' attach
-```
-## Clean/Reset/Reinitialize the database
-
-```bash
-DATADIR=/var/lib/eCredits
+DATADIR=/var/lib/esync/mainnet
+docker exec -it mainnet-geth-1 pkill geth
+docker exec -it mainnet-beacon-1 pkill beacon-chain
 docker-compose -f $DATADIR/validator.docker-compose.yaml down
 
-docker run -it -v $DATADIR/genesis.json:/etc/config/genesis.json -v $DATADIR/datadir:/root/.ethereum -e POD_NAME --entrypoint geth ecredits/node:latest removedb
+docker run -it -v $DATADIR/datadir-eth1:/root/.ethereum -e POD_NAME --entrypoint geth ecredits/node:latest removedb
 
-docker-compose -f /var/lib/eCredits/validator.docker-compose.yaml up -d
+docker-compose -f $DATADIR/validator.docker-compose.yaml up -d
 ```
 
 ## Import Private Key
-
 ```bash
-docker exec -it ecredits_ecs-validator_1 geth account import <PrivateKeyFile>
+docker run --rm -it -v "$datadir/gened/validator_keys":/keys -v "$datadir/datadir-eth2-validator":/root/.lighthouse -v "$passwordpath":/password.cfg --name validatorimport pallas.azurecr.io/ecredits/lighthouse:5.1.5 lighthouse --network $network account validator import --datadir /root/.lighthouse --directory /keys --reuse-password --password-file /password.cfg
+
 ```
 
-## Create a new account
-
-```bash
-docker exec -it ecredits_ecs-validator_1 geth account new
-```
-
-## Withdraw ECS from your validator
-
-```bash
-docker exec -it ecredits_ecs-validator_1 geth attach
-eth.sendTransaction({ from: "0x...", to: "0x...", value: 1000000000000000000 })
-```
+- ```$datadir/gened/validator_keys``` points to the directory that holds the the keys.
+- ```$datadir/datadir-eth2-validator``` points to the datadir of the validator.
+- ```$passwordpath":/password.cfg``` points to the password file.
+- ```$network``` should be the same docker network as your beacon node is in.

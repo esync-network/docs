@@ -3,7 +3,7 @@ sidebar_position: 2
 ---
 # Bug Bounty Program
 
-We take security very seriously at eCredits and The People's SCE, and we understand that a strong security posture requires constant effort and vigilance. To help ensure the security of our platform, we are launching a public bug bounty program, inviting security researchers and enthusiasts to report any security vulnerabilities they may find in our systems.
+We take security very seriously at eSync Network and The People's SCE, and we understand that a strong security posture requires constant effort and vigilance. To help ensure the security of our platform, we are launching a public bug bounty program, inviting security researchers and enthusiasts to report any security vulnerabilities they may find in our systems.
 
 ## Responsible Disclosure
 
@@ -25,11 +25,10 @@ The following domains and services are included in the scope of our bug bounty p
 <tr><th>Application</th><th>Link</th></tr>
 </thead>
 <tbody>
-<tr><td>eWallet App for smartphones</td><td><a href="https://link.ecredits.com/app/install">https://link.ecredits.com/app/install</a></td></tr>
+<tr><td>eCredits Wallet App for smartphones</td><td><a href="https://link.ecredits.com/app/install">https://link.ecredits.com/app/install</a></td></tr>
 <tr><td>Web Portal</td><td><a href="https://portal.ecredits.com/">https://portal.ecredits.com/</a></td></tr>
-<tr><td>Cashier App</td><td><a href="https://cashier.ecredits.com/">https://cashier.ecredits.com/</a></td></tr>
-<tr><td>Auth Service</td><td><a href="https://shop.ecredits.com/">https://shop.ecredits.com/</a></td></tr>
-<tr><td>APIs</td><td><a href="https://api.ecredits.com/">https://api.ecredits.com/</a> <br />https://*.api.ecredits.com</td></tr>
+<tr><td>Auth Service</td><td><a href="https://auth.ecredits.com/">https://auth.ecredits.com/</a></td></tr>
+<tr><td>APIs</td><td><a href="https://api.ecredits.com/">https://api.ecredits.com/</a></td></tr>
 <tr><td>RPC Endpoints</td><td><a href="https://rpc.ecredits.com">https://rpc.ecredits.com</a></td></tr>
 </tbody>
 </table>
@@ -72,9 +71,9 @@ We will reward the following amounts for qualifying security vulnerabilities bas
 
 | Severity     | Reward                   |
 |--------------|--------------------------|
-| **Critical** | 500€ - 2500€ in eCredits |
-| **High**     | 100€ - 500€ in eCredits  |
-| **Medium**   | 20€ - 100€ in eCredits   |
+| **Critical** | 500€ - 2500€ in eCredits (ECS) |
+| **High**     | 100€ - 500€ in eCredits (ECS)  |
+| **Medium**   | 20€ - 100€ in eCredits (ECS)   |
 
 ## Reporting a Vulnerability
 

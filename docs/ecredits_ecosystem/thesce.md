@@ -8,22 +8,14 @@ under the name of "The People's SCE”, with limited liability and is governed b
 Regulation (EC) No. 1435/2003 of July 22, 2003, on the Statute for a European Cooperative
 Society (the "SCE-Reg.”) and the laws of the Grand Duchy of Luxembourg, in particular the law of August 10, 1915, regarding commercial companies. 
  
-The registered office of the Cooperative is 16A, Av. de la Liberté, L-1930 Luxembourg. 
+The registered office of the Cooperative is 7, rue Robert Stümper, L-2557 Luxembourg. 
  
-The People's SCE aims, guided by its members, to function as an independent supporter of the eCredits Ecosystem, built upon the eSync Network, and is comprised of technology and applications providing functions that enable different forms of participation, financing and support for Merchants, Consumers and other Users. The People's SCE will create full transparency and will enable members and users of its products to participate on many different corporate levels. More information can be found at [thesce.org](https://thesce.org)
+The People's SCE aims, guided by its members, to function as an independent supporter of eCredits, built upon the eSync Network, and is comprised of technology and applications providing functions that enable different forms of participation, financing and support for Merchants, Consumers and other Users. The People's SCE will create full transparency and will enable members and users of its products to participate on many different corporate levels. More information can be found at [thesce.org](https://thesce.org)
 
 ## What is a cooperative membership?
 As The People's SCE is a decentrally governed organization, Ecosystem consumers can become members of the SCE. Members must subscribe to a business share and can participate on many different corporate levels, including voting, e.g. feature votings. 
 Those approved as members of the SCE will be informed by The People’s SCE about upcoming votings and special events on a corporate level.
 The principle of the SCE is: "one member, one vote." 
-
-## How can I apply for membership?
-The application can be done via the following at [thesce.org](https://thesce.org/membership/).
-
-1. Apply as a Member or login to the portal.ecredits.com and select “SCE Membership” from the menu on the left side 
-2. Enter your details and click "apply"
-3. Once submitted, your membership application will be subject to approval by the Board of Directors of The People's SCE. 
-4. Once your application has been approved, you will need to pay the Cooperative Membership Fee. Once the fee is paid, your membership becomes active. 
 
 ## What are the rights and duties of The People's SCE Members?
 All details about the rights of The People's SCE Members can be found in the statues of Section 10: Member Rights. [See here](https://dl.ecredits.com/legal/Statutes_ThePeoplesSCE.pdf)  
