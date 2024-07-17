@@ -61,7 +61,7 @@ docker-compose -f $DATADIR/validator.docker-compose.yaml up -d
 
 ## Import Private Key
 ```bash
-docker run --rm -it -v "$datadir/gened/validator_keys":/keys -v "$datadir/datadir-eth2-validator":/root/.lighthouse -v "$passwordpath":/password.cfg --name validatorimport pallas.azurecr.io/ecredits/lighthouse:5.1.5 lighthouse --network $network account validator import --datadir /root/.lighthouse --directory /keys --reuse-password --password-file /password.cfg
+docker run --rm -it -v "$datadir/gened/validator_keys":/keys -v "$datadir/datadir-eth2-validator":/root/.lighthouse -v "$passwordpath":/password.cfg --name validatorimport ecredits/lighthouse:latest lighthouse --network $network account validator import --datadir /root/.lighthouse --directory /keys --reuse-password --password-file /password.cfg
 
 ```
 

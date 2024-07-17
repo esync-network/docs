@@ -41,7 +41,7 @@ Parameters for the Testnet:
 
 | ChainId | RPC                          | Explorer                           |
 |---------|------------------------------|------------------------------------|
-| 63001   | https://rpc.tst.ecredits.com | https://explorer.tst.esync.network/ |
+| 63002   | https://rpc.tst.ecredits.com | https://explorer.tst.esync.network/ |
 
 
 hardhat.config:
