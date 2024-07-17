@@ -92,12 +92,12 @@ In order to stop being a validator, you need to inform the network that you want
 This can be done by the following command:
 
 ```
-docker run --rm -it --network <name of the docker network> -v "<keystore_path>":/keystore.json -v "<passwordpath>":/password.cfg --name validatorexit ecredits/lighthouse:latest lighthouse --network ecs_pubtest account validator exit --keystore /keystore.json --password-file /password.cfg --beacon-node <URL of your beacon node>
+docker run --rm -it --network <name of the docker network> -v "<keystore_path>":/keystore.json -v "<passwordpath>":/password.cfg --name validatorexit ecredits/lighthouse:latest lighthouse --network ecs account validator exit --keystore /keystore.json --password-file /password.cfg --beacon-node <URL of your beacon node>
 ```
 
 
 This command assumes you're using docker to run your node.
-- name of the docker network -> It's necessary that your beacon node is reachable for this container. Thus it needs to be connected to the same network the beacon node is in
+- name of the docker network (either `ecs` for mainnet or  `ecs_pubtest` for testnet) -> It's necessary that your beacon node is reachable for this container. Thus it needs to be connected to the same network the beacon node is in
 - keystore_path -> The path to the keystorefile fo the key that should exit. This is usually found in the ```datadir-eth2-validator/validators/<publickey>``` folder.
 - passwordpath -> Path to the file that holds the password for the keystore.
 - URL of your beacon node -> The URL of your beacon node. In our standard dockerfile that would bee http://beacon:5051

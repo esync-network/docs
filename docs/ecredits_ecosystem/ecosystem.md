@@ -69,7 +69,7 @@ More information about the exchanges and the integration can be found at [Exchan
 ## eSync Network Listing
 
 - [Chainlist - eSync Network Mainnet](https://chainlist.org/chain/63000)
-- [Chainlist - eSync Network Testnet](https://chainlist.org/chain/63001)
+- [Chainlist - eSync Network Testnet](https://chainlist.org/chain/63002)
 - [CoinCarp](https://www.coincarp.com/chainlist/ecredits-mainnet/)
 
 ## Community Channels
