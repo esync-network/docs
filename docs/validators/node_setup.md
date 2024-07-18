@@ -231,7 +231,7 @@ node checkKeys-js testnet depositDataFile.json transactions.csv
 
 ### Staking
 Once the key's are generated, you have to deposit 256 ECS to the contract for each public key that you just generated. 
-You can either do this manually, or you can use our customized [staking-deposit-cli](https://hub.docker.com/r/ecredits/staking-deposit-cli) image. It's usage is described [here](./node_setup#script-support-for-key-generation-and-staking)
+You can either do this manually, or you can use our customized [staking-deposit-cli](https://hub.docker.com/r/ecredits/staking-deposit-cli) image. It's usage is described [here](./node_setup#manual-key-generation-and-staking)
 
 **Deposit Contract Address for testnet:** 
 0x207f39fB03Ed083d2322410Ac9Ab4BA319921A8F
