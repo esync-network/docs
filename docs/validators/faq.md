@@ -14,7 +14,7 @@ For ease of use, we suggest you use your eCredits wallet address or a sub-accoun
 The validator keys are the key's that are used to sign the blocks.
 
 ## Where can I get help when I have issues?
-If you have issues, please connect with our community on the [elements channel](https://matrix.to/#/#ecredits-validators:matrix.org). They are happy to help.
+If you have issues, please connect with our community on the [telegram channel](https://t.me/+X7JjJOB25AMzOGFk). They are happy to help.
 
 ## Where can I get the control script for my node?
 The control script is available [here](https://dl.ecredits.com/scripts/ecredits.sh).
