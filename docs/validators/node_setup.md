@@ -60,9 +60,9 @@ These Ports are according to the script that we provide for setup. If you do you
  - Geth RPC (optional): 8545 TCP/UDP
  - Geth Metrics (optional): 6061 TCP/UDP
  - Beacon Node Discovery: 9000 TCP/UDP
- - Beacon Node Quic: 9001 TCP
- - Beacon Node Metrics: 8080 TCP/UDP
- - Validator Metrics: 8081 TCP/UDP
+ - Beacon Node Quic: 9001 UDP
+ - Beacon Node Metrics (optional): 8080 TCP/UDP
+ - Validator Metrics (optional): 8081 TCP/UDP
 
 
 **Outgoing** (ECS node -> Internet): 
@@ -70,7 +70,7 @@ These Ports are according to the script that we provide for setup. If you do you
  - Geth Discovery: 30303 TCP/UDP
  - Geth Metrics (optional): 6061 TCP/UDP
  - Beacon Node Discovery: 9000 TCP/UDP
- - Beacon Node Quic: 9001 TCP
+ - Beacon Node Quic: 9001 UDP
  - Beacon Metrics (optional): 8080 TCP/UDP
  - Validator Metrics (optional): 8081 TCP/UDP
 
@@ -86,9 +86,9 @@ The following are in general needed for internet access/time synchronization:
  - Geth RPC (optional): 8548 TCP/UDP
  - Geth Metrics (optional): 6062 TCP/UDP
  - Beacon Node Discovery: 9003 TCP/UDP
- - Beacon Node Quic: 9002 TCP
- - Beacon Node Metrics: 8082 TCP/UDP
- - Validator Metrics: 8083 TCP/UDP
+ - Beacon Node Quic: 9002 UDP
+ - Beacon Node Metrics (optional): 8082 TCP/UDP
+ - Validator Metrics (optional): 8083 TCP/UDP
 
 
 **Outgoing** (ECS node -> Internet): 
@@ -96,7 +96,7 @@ The following are in general needed for internet access/time synchronization:
  - Geth Discovery: 30305 TCP/UDP
  - Geth Metrics (optional): 6062 TCP/UDP
  - Beacon Node Discovery: 9003 TCP/UDP
- - Beacon Node Quic: 9002 TCP
+ - Beacon Node Quic: 9002 UDP
  - Beacon Metrics (optional): 8082 TCP/UDP
  - Validator Metrics (optional): 8083 TCP/UDP
 
