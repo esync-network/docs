@@ -60,7 +60,7 @@ services:
     ports:
       - 9003:9003/udp # p2p udp
       - 9003:9003/tcp # p2p tcp
-      - 9002:9002/tcp # quic
+      - 9002:9002/udp # quic
       - 5053:5053/tcp # rest API
       - 8082:8082/tcp   # metrics
     entrypoint:
