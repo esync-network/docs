@@ -49,7 +49,7 @@ services:
         --authrpc.port 8551
         --miner.etherbase ${ETHERBASE_ACCOUNT}
   beacon:
-    image: ecredits/lighthouse:5.1.8
+    image: ecredits/lighthouse:5.2.2
     networks: 
       - ecredits
     volumes:
@@ -60,7 +60,7 @@ services:
     ports:
       - 9000:9000/udp # p2p udp
       - 9000:9000/tcp # p2p tcp
-      - 9001:9001/tcp # quic
+      - 9001:9001/udp # quic
       - 5051:5051/tcp # rest API
       - 8080:8080/tcp   # metrics
     entrypoint:
@@ -88,7 +88,7 @@ services:
         --subscribe-all-subnets
         --checkpoint-sync-url http://51.210.248.62:80/
   validator:
-    image: ecredits/lighthouse:5.1.8
+    image: ecredits/lighthouse:5.2.2
     networks: 
       - ecredits
     volumes:
