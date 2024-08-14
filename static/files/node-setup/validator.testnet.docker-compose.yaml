@@ -79,8 +79,6 @@ services:
         --http-address 0.0.0.0
         --http-port 5053
         --enr-address ${SELF_IP}
-        --enr-udp-port 9003
-        --enr-tcp-port 9003
         --discovery-port 9003
         --boot-nodes enr:-MW4QGyuE26_oYlSGADPWzGBwTjaMnIq4xGGp48aJauAAbXzB5DEo_qYShTp43SnZGoAZ_ZU-OlC25d6Zi6h3py0ACGBjodhdHRuZXRziP__________hGV0aDKQJHAa8QIGMAL__________4JpZIJ2NIJpcISt-QFIhHF1aWOCMsuJc2VjcDI1NmsxoQLLX5qX_rn-i_PgJ8GnfBFnSolX7Ri1jCj83ZRBFgYnCIhzeW5jbmV0cw-DdGNwgjLKg3VkcIIu4Q
         --trusted-peers 16Uiu2HAm97ZJ5KaKXJBjvXraN5TetcEU9MGsWVFmuXjey8mz4WCo
