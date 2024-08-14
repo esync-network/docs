@@ -78,8 +78,7 @@ services:
         --http
         --http-address 0.0.0.0
         --http-port 5051
-        --enr-udp-port 9000
-        --enr-tcp-port 9000
+        --enr-address ${SELF_IP}
         --discovery-port 9000
         --boot-nodes enr:-MW4QGyuE26_oYlSGADPWzGBwTjaMnIq4xGGp48aJauAAbXzB5DEo_qYShTp43SnZGoAZ_ZU-OlC25d6Zi6h3py0ACGBjodhdHRuZXRziP__________hGV0aDKQJHAa8QIGMAL__________4JpZIJ2NIJpcISt-QFIhHF1aWOCMsuJc2VjcDI1NmsxoQLLX5qX_rn-i_PgJ8GnfBFnSolX7Ri1jCj83ZRBFgYnCIhzeW5jbmV0cw-DdGNwgjLKg3VkcIIu4Q
         --trusted-peers 16Uiu2HAm97ZJ5KaKXJBjvXraN5TetcEU9MGsWVFmuXjey8mz4WCo
@@ -87,7 +86,7 @@ services:
         --metrics-address 0.0.0.0
         --metrics-port 8080
         --subscribe-all-subnets
-        --checkpoint-sync-url http://51.79.142.228:80/
+        --checkpoint-sync-url http://51.210.248.62:80/
   validator:
     image: ecredits/lighthouse:5.2.2
     networks: 
